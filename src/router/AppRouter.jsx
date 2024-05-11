@@ -33,9 +33,7 @@ const AppRouter = () => {
       <Route element={<ProtectedAdmin />}>
         <Route element={<Layout />}>
           <Route path="/dashboard" element={<Dashboard />} />
-          <Route path="/ordenes" element={<Ordenes />} />
           <Route path="/miembros" element={<Miembros />} />
-          <Route path="/productos" element={<Productos />} />
         </Route>
       </Route>
       {/* Login */}
