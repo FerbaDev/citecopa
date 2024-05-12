@@ -23,8 +23,8 @@
 }
 .background {
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: rgba(32, 31, 31, 0.87);
+  background-color: #ffffff;
 }
 .home {
   height: 100vh;
@@ -115,7 +115,7 @@ button:hover {
 
 
 /***************** MEDIA QUERIES ***************/
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
     color: #213547;
     background-color: #ffffff;

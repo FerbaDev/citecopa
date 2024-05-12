@@ -128,7 +128,7 @@ function Navbar(props) {
         position="fixed"
         sx={{
           width: "100%",
-          backgroundColor: "#353535",
+          backgroundColor: "red",
         }}
       >
         <Toolbar
@@ -164,7 +164,7 @@ function Navbar(props) {
             "& .MuiDrawer-paper": {
               boxSizing: "border-box",
               width: drawerWidth,
-              backgroundColor: "#353535",
+              backgroundColor: "green",
             },
           }}
         >

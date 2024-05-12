@@ -86,7 +86,7 @@ import {
             alignItems: "center",
           }}
         >
-          <h1 className="titular">Bienvenidos a Del Monte!</h1>
+          <h1 className="titular">Bienvenidos a CITECoPa!</h1>
           <p>Antes de pasar a esta sección iniciá sesión.</p>
           <p>Si todavia no te registrate hacelo, o ingresá con Google.</p>
         </div>
