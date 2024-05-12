@@ -11,8 +11,8 @@ export const Inicio = () => {
         <Button
           variant="contained"
           sx={{
-            backgroundColor: "#616161",
-            ":hover": { backgroundColor: "#757575" },
+            backgroundColor: "green",
+            ":hover": { backgroundColor: "blue" },
           }}
         >
           volver

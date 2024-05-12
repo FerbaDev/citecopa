@@ -6,13 +6,13 @@ export const Home = () => {
   
   return (
     <div className="background home">
-      <h1>CITECoPa</h1>
+      <h1>Fundación CITECoPa</h1>
       <Link to={"/inicio"}>
         <Button
           variant="contained"
           sx={{
-            backgroundColor: "#616161",
-            ":hover": { backgroundColor: "#757575" },
+            backgroundColor: "green",
+            ":hover": { backgroundColor: "blue" },
           }}
         >
           ir a la app

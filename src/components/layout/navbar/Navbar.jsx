@@ -134,7 +134,7 @@ function Navbar(props) {
         <Toolbar
           sx={{ gap: "20px", display: "flex", justifyContent: "space-between" }}
         >
-          <Link to="/" className="logo montserrat">
+          <Link to="/inicio" className="logo montserrat">
             CITECoPa
           </Link>
           <Box sx={{ display: "flex", gap: "1em", alignItems: "center" }}>

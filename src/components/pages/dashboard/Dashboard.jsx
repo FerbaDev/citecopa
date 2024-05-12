@@ -16,14 +16,8 @@ const Dashboard = () => {
         }}
       >
         <h1>Dashboard de administrador</h1>
-        <Link to={"/ordenes"}>
-          <Button variant="contained">Ver órdenes</Button>
-        </Link>
         <Link to={"/miembros"}>
           <Button variant="contained">Ver miembros</Button>
-        </Link>
-        <Link to={"/productos"}>
-          <Button variant="contained">Ver productos</Button>
         </Link>
       </header>
       
