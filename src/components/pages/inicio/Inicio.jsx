@@ -1,23 +1,13 @@
-import { Button, Box } from "@mui/material";
-import { Link } from "react-router-dom";
+import {  Box } from "@mui/material";
+
 import "../../../index.css";
+import ClubSeccion from "./ClubSeccion";
 
 export const Inicio = () => {
   return (
     <Box className="inicio-container" sx={{paddingInline: {xs: "20px", md:"50px", lg: "50px"}}}>
-      <h1>Muy pronto!</h1>
-      <p>Este sitio se está construyendo</p>
-      <Link to={-1}>
-        <Button
-          variant="contained"
-          sx={{
-            backgroundColor: "green",
-            ":hover": { backgroundColor: "blue" },
-          }}
-        >
-          volver
-        </Button>
-      </Link>
+      <ClubSeccion />
+
     </Box>
   );
 };
