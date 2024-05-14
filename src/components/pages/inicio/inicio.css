@@ -103,3 +103,10 @@ h3 {
 .parrafo9 {
     font-family: var(--font-mountains-of-christmas);
 }
+
+/*seccion taller*/
+
+.seccion-taller {
+    min-height: 90vh;
+    background-color: #F5BE49;
+}
