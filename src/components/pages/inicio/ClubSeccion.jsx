@@ -5,7 +5,7 @@ const ClubSeccion = () => {
     <>
     
     
-    
+    <h1>seccion Club</h1>
     
     
     </>
