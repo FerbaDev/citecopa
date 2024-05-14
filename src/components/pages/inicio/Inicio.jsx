@@ -7,7 +7,7 @@ import LabSeccion from "./LabSeccion";
 
 export const Inicio = () => {
   return (
-    <Box className="inicio-container" >
+    <Box  >
       <ClubSeccion />
       <LabSeccion />
     </Box>
