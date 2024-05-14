@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+
+:root {
+    --font-orbitron: "Orbitron", sans-serif;
+    --font-bungee: "Bungee", sans-serif;
+    --font-silkscreen: "Silkscreen", sans-serif;
+    --font-madimi-one: "Madimi One", sans-serif;
+    --font-press-start-2p: "Press Start 2P", system-ui;
+    --font-rubik-moonrocks: "Rubik Moonrocks", sans-serif;
+    --font-grandstander: "Grandstander", cursive;
+    --font-rampart-one: "Rampart One", sans-serif;
+}
+
+.club-section {
+    background-color: #9ADFF8;
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2em
+}
+h2 {
+    font-size: 3em;
+}
+.titulo1 {
+    font-family: var(--font-orbitron);
+}
+.titulo2 {
+    font-family: var(--font-bungee);
+}
+.titulo3 {
+    font-family: var(--font-silkscreen);
+}
+.titulo4 {
+    font-family: var(--font-madimi-one);
+}
+.titulo5 {
+    font-family: var(--font-press-start-2p);
+}
+.titulo6 {
+    font-family: var(--font-rubik-moonrocks);
+}
+.titulo7 {
+    font-family: var(--font-grandstander);
+}
+.titulo8 {
+    font-family: var(--font-rampart-one);
+}
+
+/*seccion laboratorio*/
+.labseccion-container {
+    background-color: #DFC6F6;
+    min-height: 90vh;
+}
