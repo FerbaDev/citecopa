@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export const Home = () => {
   
   return (
-    <div className="background home">
+    <div >
       <h1>Fundación CITECoPa</h1>
       <Link to={"/inicio"}>
         <Button

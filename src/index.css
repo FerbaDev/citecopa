@@ -24,9 +24,6 @@
   align-items: center;
   justify-content: center;
   gap: 2em;
-  background-image: url("https://firebasestorage.googleapis.com/v0/b/citecopa-fcac8.appspot.com/o/imagenes%2Fninios-club-de-ciencias.jpg?alt=media&token=8194d71e-a8e4-4969-93c2-981b7d08a610");
-  background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
   text-align: center;
 }
