@@ -9,6 +9,18 @@ export const menuItems = [
     path: "/inicio",
     title: "Inicio",
     Icon: HomeIcon,
+  },
+  {
+    id: "laboratorio",
+    path: "/laboratorio",
+    title: "Laboratorio",
+    Icon: HomeIcon,
+  },
+  {
+    id: "comunidad",
+    path: "/comunidad",
+    title: "Comunidad",
+    Icon: HomeIcon,
   }
   
 ];
