@@ -1,3 +1,4 @@
+/* SECCION LABORATORIO */
 @keyframes rotate {
     100% {
         background-position: 20% 50%;
@@ -8,7 +9,7 @@
     min-height: 100vh;
     width: 100%;
     padding: 20px;
-    background-image: url("./low-poly-grid-haikei.svg");
+    background-image: url("/low-poly-grid-haikei.svg");
     background-size: cover;
     background-repeat: no-repeat;
     animation: rotate 20s infinite alternate linear;
@@ -53,7 +54,12 @@
   .lab-hero-images img {
     width: 100%;
   }
-  
+
+/* SECCION TALLER */
+.taller-container {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
 /* MEDIA QUERIES */
 /* Small devices (portrait tablets and large phones, 600px and up) */
