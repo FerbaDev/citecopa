@@ -122,7 +122,7 @@ function Navbar(props) {
     window !== undefined ? () => window().document.body : undefined;
 
   return (
-    <Box sx={{ display: "flex", marginBottom: "20px" }}>
+    <Box sx={{ display: "flex", marginBottom: "16px" }}>
       <CssBaseline />
       <AppBar
         position="fixed"

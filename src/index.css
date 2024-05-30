@@ -19,7 +19,12 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+h1 {
+  font-family: var(--font-orbitron);
+}
+h2, h3, h4 {
+  font-family: 'Courier New', Courier, monospace;
+}
 .home {
   height: 100vh;
   display: flex;
