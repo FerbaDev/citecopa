@@ -7,7 +7,7 @@
 .lab-hero-container {
     min-height: 100vh;
     width: 100%;
-    padding: 0 20px;
+    padding: 20px;
     background-image: url("./low-poly-grid-haikei.svg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -19,16 +19,25 @@
     gap: 2em;
 }
 .lab-hero-titles h1 {
-    color: rgb(255, 255, 255);
+    font-size: 3em;
 }
 
 .lab-hero-titles h3 {
-    color: rgb(255, 255, 255);
+    font-size: 1.5em;
 }
-
-.neon-text {
-    font-size: 2em; /* Ajusta el tamaño de la fuente según sea necesario */
-    color: #ff00ff; /* Color base rosado */
+.neon-text-white {
+    color: #ffffff; /* Color base rosado */
+    text-shadow: 
+      1px 1px 1px #000000, 
+      0 0 10px #b5a3a3, 
+      0 0 20px #c2b3b3, 
+      0 0 30px #a985a9, 
+      0 0 40px #bd6bec, 
+      0 0 50px #bd6bec, 
+      0 0 60px #bd6bec;
+  }
+.neon-text-pink {
+    color: #ffffff; /* Color base rosado */
     text-shadow: 
       0 0 5px #ff00ff, 
       0 0 10px #ff00ff, 
@@ -51,22 +60,27 @@
 @media only screen and (min-width: 600px) {}
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
-.lab-hero-container {
-    flex-direction: row;
-    justify-content: center;
+@media only screen and (min-width: 768px) {
 
+    .lab-hero-container {
+        flex-direction: row;
+        justify-content: center;
+    
+    }
+    .lab-hero-titles {
+        width: 40%;
+    }
+    .lab-hero-images {
+        width: 40%;
+    
+      }
+      .lab-hero-images img {
+        width: 100%;
+      }
+      .lab-hero-titles h3 {
+        font-size: 2em;
+    }
 }
-.lab-hero-titles {
-    width: 40%;
-}
-.lab-hero-images {
-    width: 40%;
-
-  }
-  .lab-hero-images img {
-    width: 100%;
-  }
 /* Large devices (laptops/desktops, 980px and up) */
 @media only screen and (min-width: 980px) {
     

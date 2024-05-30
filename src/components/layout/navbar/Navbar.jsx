@@ -128,13 +128,13 @@ function Navbar(props) {
         position="fixed"
         sx={{
           width: "100%",
-          backgroundColor: "red",
+          backgroundColor: "#281549",
         }}
       >
         <Toolbar
           sx={{ gap: "20px", display: "flex", justifyContent: "space-between" }}
         >
-          <Link to="/inicio" className="logo montserrat">
+          <Link to="/" className="logo">
             CITECoPa
           </Link>
           <Box sx={{ display: "flex", gap: "1em", alignItems: "center" }}>
