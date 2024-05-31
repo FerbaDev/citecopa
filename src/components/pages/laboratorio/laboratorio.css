@@ -1,76 +1,65 @@
 /* SECCION LABORATORIO */
 @keyframes rotate {
-    100% {
-        background-position: 20% 50%;
-    }
+  100% {
+    background-position: 20% 50%;
+  }
 }
-
 
 .lab-hero-container {
-    min-height: 100vh;
-    width: 100%;
-    padding: 20px;
-    background-image: url("/low-poly-grid-haikei.svg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    animation: rotate 20s infinite alternate linear;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 2em;
-    text-wrap: balance;
+  min-height: 100vh;
+  width: 100%;
+  padding: 20px;
+  background-image: url("/low-poly-grid-haikei.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: rotate 20s infinite alternate linear;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2em;
+  text-wrap: balance;
 }
 .lab-hero-titles h1 {
-    font-size: 3em;
-
+  font-size: 3em;
 }
 
 .lab-hero-titles h3 {
-    font-size: 1.5em;
+  font-size: 1.5em;
+  font-family: var(--font-spartan);
 }
 .neon-text-white {
-    color: #ffffff; /* Color base rosado */
-    text-shadow: 
-      1px 1px 1px #000000, 
-      0 0 10px #b5a3a3, 
-      0 0 20px #c2b3b3, 
-      0 0 30px #a985a9, 
-      0 0 40px #bd6bec, 
-      0 0 50px #bd6bec, 
-      0 0 60px #bd6bec;
-  }
+  color: #ffffff; /* Color base rosado */
+  text-shadow: 1px 1px 1px #000000, 0 0 10px #b5a3a3, 0 0 20px #c2b3b3,
+    0 0 30px #a985a9, 0 0 40px #bd6bec, 0 0 50px #bd6bec, 0 0 60px #bd6bec;
+}
 .neon-text-pink {
-    color: #ffffff; /* Color base rosado */
-    text-shadow: 
-      0 0 5px #ff00ff, 
-      0 0 10px #ff00ff, 
-      0 0 20px #ff00ff, 
-      0 0 30px #ff00ff, 
-      0 0 40px #ff00ff, 
-      0 0 50px #ff00ff, 
-      0 0 60px #ff00ff;
-  }
-  .lab-hero-images {
-    width: 100%;
-  }
-  .lab-hero-images img {
-    width: 100%;
-  }
+  color: #ffffff; /* Color base rosado */
+  text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff, 0 0 20px #ff00ff,
+    0 0 30px #ff00ff, 0 0 40px #ff00ff, 0 0 50px #ff00ff, 0 0 60px #ff00ff;
+}
+.lab-hero-images {
+  width: 100%;
+}
+.lab-hero-images img {
+  width: 100%;
+}
 
 /* SECCION TALLER */
 .taller-container {
-    max-width: 100%;
-    overflow-x: hidden;
-    background-image: url("/board.svg");
-    background-size: cover;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
+  max-width: 100%;
+  overflow-x: hidden;
+  background-image: url("/board.svg");
+  background-size: cover;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin: 0 0 -1px -1px;
 }
 .taller-title {
   width: 100%;
+  font-family: var(--font-orbitron);
 }
 .taller-title img {
   width: 100%;
@@ -84,76 +73,91 @@
   display: flex;
   flex-direction: column;
   gap: 1em;
+  border-radius: 16px;
+}
+.taller-info p {
+  font-family: var(--font-spartan);
 }
 .taller-info-title {
   color: #ff00ff;
   text-transform: uppercase;
   font-size: 1.1em;
   text-shadow: 1px 1px black;
+  font-family: var(--font-orbitron);
+}
+/* SECCION Comarca */
+.comarca-container {
+  height: 100vh;
+  max-width: 100%;
+  background-image: url("/bg-comarca.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
+.comarca-info-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* MEDIA QUERIES */
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 600px) {
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-
-    .lab-hero-container {
-        flex-direction: row;
-        justify-content: center;
-    
-    }
-    .lab-hero-titles {
-        width: 40%;
-    }
-    .lab-hero-images {
-        width: 40%;
-    
-      }
-      .lab-hero-images img {
-        width: 100%;
-      }
-      .lab-hero-titles h3 {
-        font-size: 2em;
-    }
-    /* SECCION TALLER */
-.taller-container {
-  padding: 50px 100px;
-  flex-direction: row;
-  align-items: center;
-}
-.taller-title {
-width: 100%;
-}
-.taller-title h3 {
-  font-size: 2.5em;
-}
-.taller-title img {
-width: 100%;
-}
-.taller-info {
-padding: 20px;
-background: rgb(24, 21, 36 / 66%);
-backdrop-filter: blur(15px);
-color: #ffffff;
-display: flex;
-flex-direction: column;
-gap: 1em;
-}
-.taller-info-title {
-color: #ff00ff;
-text-transform: uppercase;
-font-size: 1.1em;
-text-shadow: 1px 1px black;
-}
-
+  .lab-hero-container {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .lab-hero-titles {
+    width: 40%;
+  }
+  .lab-hero-images {
+    width: 40%;
+  }
+  .lab-hero-images img {
+    width: 100%;
+  }
+  .lab-hero-titles h3 {
+    font-size: 2em;
+  }
+  /* SECCION TALLER */
+  .taller-container {
+    padding: 50px 100px;
+    flex-direction: row;
+    align-items: center;
+  }
+  .taller-title {
+    width: 100%;
+  }
+  .taller-title h3 {
+    font-size: 2.5em;
+  }
+  .taller-title img {
+    width: 100%;
+  }
+  .taller-info {
+    padding: 20px;
+    background: rgb(24, 21, 36 / 66%);
+    backdrop-filter: blur(15px);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+  .taller-info-title {
+    color: #ff00ff;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    text-shadow: 1px 1px black;
+  }
 }
 /* Large devices (laptops/desktops, 980px and up) */
 @media only screen and (min-width: 980px) {
-    
-    
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+}

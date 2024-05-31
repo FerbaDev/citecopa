@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -10,10 +11,11 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
   --font-orbitron: "Orbitron", sans-serif;
+  --font-spartan: "League Spartan", sans-serif;
   --font-press-start-2p: "Press Start 2P", system-ui;
-  --bg-celeste: #9ADFF8;
-  --bg-violeta-claro: #DFC6F6;
-  --bg-naranja: #F5BE49;
+  --bg-celeste: #9adff8;
+  --bg-violeta-claro: #dfc6f6;
+  --bg-naranja: #f5be49;
 }
 * {
   margin: 0;
@@ -23,9 +25,7 @@
 h1 {
   font-family: var(--font-orbitron);
 }
-h2, h3, h4 {
-  font-family: 'Courier New', Courier, monospace;
-}
+
 .home {
   height: 100vh;
   padding: 20px;
@@ -49,8 +49,7 @@ a:hover {
 
 h1 {
   font-size: 3.2em;
-  line-height: 1.1; 
-
+  line-height: 1.1;
 }
 
 .logo {
@@ -85,23 +84,19 @@ h1 {
   max-width: 50%;
 }
 
-button {
-  padding: 5px;
+.btn {
+  padding: 10px;
   border-radius: 3px;
-  font-family: 'Courier New', Courier, monospace, sans-serif;
-  text-transform: uppercase;
-  font-weight: bold;
-  background-color: rgb(237, 81, 237);
-  border: 1px solid rgb(255, 44, 255);
+  font-family: var(--font-spartan);
+  background-color: #6420aa;
+  border: 1px solid #ff3ea5;
   font-size: 1em;
   color: #ffffff;
-  text-shadow: 1px 1px black;
 }
 button:hover {
-  background-color: rgb(250, 187, 250);
+  background-color: #8c2dea;
+  scale: 1.05;
 }
-
-
 
 /***************** FOOTER ***************/
 
@@ -117,8 +112,6 @@ button:hover {
 }
 
 /***************** INICIO ***************/
-
-
 
 /***************** MEDIA QUERIES ***************/
 @media (prefers-color-scheme: light) {
