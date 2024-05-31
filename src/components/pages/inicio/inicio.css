@@ -1,28 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Orbitron:wght@400..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Acme&family=Archivo+Black&family=Changa:wght@200..800&family=Electrolize&family=McLaren&family=Mountains+of+Christmas:wght@400;700&family=Russo+One&display=swap');
 
 :root {
     --font-orbitron: "Orbitron", sans-serif;
-    --font-bungee: "Bungee", sans-serif;
-    --font-silkscreen: "Silkscreen", sans-serif;
-    --font-madimi-one: "Madimi One", sans-serif;
-    --font-rubik-moonrocks: "Rubik Moonrocks", sans-serif;
-    --font-grandstander: "Grandstander", cursive;
-    --font-rampart-one: "Rampart One", sans-serif;
-    --font-archivo-black: "Archivo Black", sans-serif;
-    --font-changa: "Changa", sans-serif;
-    --font-acme: "Acme", sans-serif;
-    --font-russo-one:"Russo One", sans-serif;
-    --font-electrolize: "Electrolize", sans-serif;
-    --font-mclaren: "McLaren", sans-serif;
-    --font-mountains-of-christmas: "Mountains of Christmas", serif;
 }
 
 .club-section {
@@ -46,27 +25,7 @@ h3 {
 .titulo1 {
     font-family: var(--font-orbitron);
 }
-.titulo2 {
-    font-family: var(--font-bungee);
-}
-.titulo3 {
-    font-family: var(--font-silkscreen);
-}
-.titulo4 {
-    font-family: var(--font-madimi-one);
-}
-.titulo5 {
-    font-family: var(--font-press-start-2p);
-}
-.titulo6 {
-    font-family: var(--font-rubik-moonrocks);
-}
-.titulo7 {
-    font-family: var(--font-grandstander);
-}
-.titulo8 {
-    font-family: var(--font-rampart-one);
-}
+
 
 /*seccion laboratorio*/
 
@@ -77,30 +36,7 @@ h3 {
     padding: 50px;
 }
 
-.parrafo2 {
-    font-family: var(--font-archivo-black);
-}
-.parrafo3 {
-    font-family: var(--font-changa);
-}
-.parrafo4 {
-    font-family: var(--font-acme);
-}
-.parrafo5 {
-    font-family: var(--font-orbitron);
-}
-.parrafo6 {
-    font-family: var(--font-russo-one);
-}
-.parrafo7 {
-    font-family: var(--font-electrolize);
-}
-.parrafo8 {
-    font-family: var(--font-mclaren);
-}
-.parrafo9 {
-    font-family: var(--font-mountains-of-christmas);
-}
+
 
 /*seccion taller*/
 
