@@ -1,7 +1,6 @@
 import { Comunidad } from "../components/pages/comunidad/Comunidad";
 import { Home } from "../components/pages/home/Home";
-
-import { Inicio } from "../components/pages/inicio/Inicio";
+import { Club } from "../components/pages/inicio/Club";
 import { Laboratorio } from "../components/pages/laboratorio/Laboratorio";
 
 export const routes = [
@@ -11,9 +10,9 @@ export const routes = [
     Element: Home,
   },
   {
-    id: "inicio",
-    path: "/inicio",
-    Element: Inicio,
+    id: "club",
+    path: "/club",
+    Element: Club,
   },
   {
     id: "laboratorio",

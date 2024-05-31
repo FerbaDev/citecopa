@@ -7,8 +7,8 @@ export const Home = () => {
   return (
     <div className="home">
       <h1>Fundación CITECoPa</h1>
-      <Box sx={{ display: "flex", gap: "1em"}}>
-        <Link to={"/inicio"}>
+      <Box sx={{ display: "flex", gap: "1em", flexDirection: {xs: "column", sm: "column", md: "row"}}}>
+        <Link to={"/club"}>
           <Button
             variant="contained"
             sx={{
@@ -16,7 +16,7 @@ export const Home = () => {
               ":hover": { backgroundColor: "blue" },
             }}
           >
-            inicio
+            Club de ciencias
           </Button>
         </Link>
         <Link to={"/laboratorio"}>
@@ -27,7 +27,7 @@ export const Home = () => {
               ":hover": { backgroundColor: "blue" },
             }}
           >
-            laboratorio
+            laboratorio de proyectos
           </Button>
         </Link>
         <Link to={"/comunidad"}>

@@ -28,6 +28,7 @@ h2, h3, h4 {
 }
 .home {
   height: 100vh;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
