@@ -24,19 +24,8 @@
 }
 h1 {
   font-family: var(--font-orbitron);
-}
-
-.home {
-  height: 100vh;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 2em;
-  background-size: cover;
-  text-align: center;
-  background-color: var(--bg-celeste);
+  font-size: 3.2em;
+  line-height: 1.1;
 }
 a {
   color: #fafafa;
@@ -44,11 +33,6 @@ a {
 }
 a:hover {
   color: #3aff3d;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
 }
 
 .logo {
