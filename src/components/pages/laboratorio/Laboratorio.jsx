@@ -1,5 +1,6 @@
 import SeccionComarca from "./SeccionComarca";
 import { SeccionLab } from "./SeccionLab";
+import SeccionLiga from "./SeccionLiga";
 import { SeccionTaller } from "./SeccionTaller";
 import "./laboratorio.css";
 
@@ -9,6 +10,7 @@ export const Laboratorio = () => {
       <SeccionLab />
       <SeccionTaller />
       <SeccionComarca />
+      <SeccionLiga />
     </div>
   );
 };

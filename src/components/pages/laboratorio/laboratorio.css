@@ -116,6 +116,45 @@
   align-items: center;
   gap: 1em;
 }
+/* SECCION Liga robotica */
+.liga-container {
+  background: rgb(42,14,71);
+  background: linear-gradient(0deg, rgba(42,14,71,1) 0%, rgba(9,9,121,1) 35%, rgba(100,32,170,1) 100%);
+  padding: 20px;
+  max-width: 100%;
+}
+.liga-container h2 {
+  color: #ffffff;
+}
+.liga-cards-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 1em;
+}
+.liga-card {
+  width: 345px;
+  height: 450px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  text-align: center;
+  border-radius: 16px;
+}
+
+.liga-card-1 {
+  background-image: url("/liga-robotica1.jpg");
+  background-position: center top;
+}
+.liga-card-2 {
+  background-image: url("/liga-robotica2.jpg");
+  background-position: center top;
+}
+.liga-card-3 {
+  background-image: url("/liga-robotica3.jpg");
+  background-position: center top;
+}
 
 /* MEDIA QUERIES */
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -190,7 +229,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
+}
+ /* +++++++++++ seccion liga +++++++++++ */
+.liga-container {
+  padding: 50px 100px;
+ }
+.liga-container h2 {
+  text-align: start;
+  padding-bottom: 50px;
+}
+.liga-cards-container {
+  flex-direction: row;
 }
 }
 /* Large devices (laptops/desktops, 980px and up) */
