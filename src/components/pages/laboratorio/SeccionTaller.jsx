@@ -37,7 +37,7 @@ export const SeccionTaller = () => {
           </p>
         </div>
         <div>
-          <button className="btn">Sumarme al taller!</button>
+          <button className="glow-on-hover">Sumarme al taller!</button>
         </div>
       </div>
     </div>
