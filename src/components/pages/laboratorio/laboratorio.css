@@ -87,17 +87,34 @@
 }
 /* SECCION Comarca */
 .comarca-container {
-  height: 100vh;
   max-width: 100%;
   background-image: url("/bg-comarca.jpg");
   background-size: cover;
   background-position: center;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.comarca-container h2 {
+  font-size: 4em;
+  text-align: start;
+}
+.comarca-info {
+  padding: 20px;
+  background: rgb(24, 21, 36 / 96%);
+  backdrop-filter: blur(45px);
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  border-radius: 16px;
+  justify-content: space-around;
 }
 .comarca-info-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 1em;
 }
 
 /* MEDIA QUERIES */
@@ -153,6 +170,28 @@
     font-size: 1.1em;
     text-shadow: 1px 1px black;
   }
+  /* SECCION Comarca */
+.comarca-container {
+  flex-direction: row;
+  padding: 50px 100px;
+  justify-content: center;
+}
+.comarca-title-container {
+  width: 40%;
+}
+.comarca-container h2 {
+  font-size: 6em;
+  text-align: start;
+}
+.comarca-info {
+  width: 30%;
+}
+.comarca-info-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
 }
 /* Large devices (laptops/desktops, 980px and up) */
 @media only screen and (min-width: 980px) {

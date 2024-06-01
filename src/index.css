@@ -39,7 +39,6 @@ h1 {
   background-color: var(--bg-celeste);
 }
 a {
-  font-weight: 500;
   color: #fafafa;
   text-decoration: inherit;
 }
@@ -85,7 +84,7 @@ h1 {
 }
 
 .btn {
-  padding: 10px;
+  padding: 5px;
   border-radius: 3px;
   font-family: var(--font-spartan);
   background-color: #6420aa;
@@ -93,7 +92,7 @@ h1 {
   font-size: 1em;
   color: #ffffff;
 }
-button:hover {
+.btn:hover {
   background-color: #8c2dea;
   scale: 1.05;
 }
