@@ -125,6 +125,7 @@
 }
 .liga-container h2 {
   color: #ffffff;
+  text-align: start;
 }
 .liga-cards-container {
   display: flex;
