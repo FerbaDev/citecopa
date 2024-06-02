@@ -157,7 +157,61 @@
   background-image: url("/liga-robotica3.jpg");
   background-position: center top;
 }
-
+/* SECCION Feria de ciencias */
+@keyframes bg{
+  0%{
+    background-position-x: 0;
+  }
+  
+  100%{
+    background-position-x: 500px;
+  }
+}
+.feria-container {
+  background: linear-gradient(to right, #0c2b4e 0%,#502285 19%,#6d2cdd 50%,#0c2b4e 100%); 
+  background-size: 100%;
+  animation: bg 15s linear infinite alternate;
+  padding: 20px;
+}
+.feria-container h2 {
+  text-align: start;
+}
+.feria-btn {
+  padding: 10px;
+  background-color: #0c2b4e;
+  display: inline-block;
+  border-radius: 5px;
+  font-size: calc(2px + 100%);
+}
+.feria-btn:hover {
+  scale: 1.05;
+}
+.feria-actions {
+  font-family: var(--font-spartan);
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  align-items: end;
+}
+.feria-cards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  width: 100%;
+}
+.feria-card {
+  padding: 10px;
+  height: 250px;
+  width: 250px;
+  background-color: #0c2b4e;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  color: #ffffff;
+  font-size: calc(5px + 100%);
+}
 /* MEDIA QUERIES */
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
@@ -243,6 +297,15 @@
 .liga-cards-container {
   flex-direction: row;
 }
+/* SECCION Feria de ciencias */
+.feria-container h2 {
+  width: 50%;
+} 
+.feria-cards-container {
+  flex-direction: row;
+  justify-content: end;
+}
+
 }
 /* Large devices (laptops/desktops, 980px and up) */
 @media only screen and (min-width: 980px) {
