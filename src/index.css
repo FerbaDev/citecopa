@@ -14,7 +14,7 @@
   --font-spartan: "League Spartan", sans-serif;
   --font-press-start-2p: "Press Start 2P", system-ui;
   --bg-celeste: #9adff8;
-  --bg-violeta-claro: #dfc6f6;
+  --bg-violeta: #6420aa;
   --bg-naranja: #f5be49;
 }
 * {
@@ -71,7 +71,7 @@ a:hover {
   padding: 5px;
   border-radius: 3px;
   font-family: var(--font-spartan);
-  background-color: #6420aa;
+  background-color: var(--bg-violeta);
   border: 1px solid #ff3ea5;
   font-size: 1em;
   color: #ffffff;
@@ -86,7 +86,7 @@ a:hover {
   border: none;
   outline: none;
   color: #fff;
-  background: #6420aa;
+  background: var(--bg-violeta);
   cursor: pointer;
   position: relative;
   z-index: 0;

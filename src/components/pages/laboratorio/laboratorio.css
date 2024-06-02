@@ -98,6 +98,7 @@
 .comarca-container h2 {
   font-size: 4em;
   text-align: start;
+  font-family: var(--font-orbitron);
 }
 .comarca-info {
   padding: 20px;
@@ -126,6 +127,7 @@
 .liga-container h2 {
   color: #ffffff;
   text-align: start;
+  font-family: var(--font-orbitron);
 }
 .liga-cards-container {
   display: flex;
@@ -175,6 +177,7 @@
 }
 .feria-container h2 {
   text-align: start;
+  font-family: var(--font-orbitron);
 }
 .feria-btn {
   padding: 10px;
@@ -211,6 +214,15 @@
   align-items: end;
   color: #ffffff;
   font-size: calc(5px + 100%);
+}
+/* SECCION Proyectos comunitarios */
+.proyectos-container {
+  padding: 20px;
+  background-color: var(--bg-violeta);
+}
+.proyectos-container h2 {
+  text-align: start;
+  font-family: var(--font-orbitron);
 }
 /* MEDIA QUERIES */
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -298,12 +310,19 @@
   flex-direction: row;
 }
 /* SECCION Feria de ciencias */
+.feria-container {
+  padding: 50px 100px;
+}
 .feria-container h2 {
   width: 50%;
 } 
 .feria-cards-container {
   flex-direction: row;
   justify-content: end;
+}
+.feria-card:hover {
+  background-color: #3d187c;
+  scale: 1.05;
 }
 
 }
