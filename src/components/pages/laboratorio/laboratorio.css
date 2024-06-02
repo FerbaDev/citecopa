@@ -224,6 +224,30 @@
   text-align: start;
   font-family: var(--font-orbitron);
 }
+.proyectos-cards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+  gap: 1em;
+}
+.proyectos-card {
+  padding: 10px;
+  height: 250px;
+  width: 250px;
+  border-radius: 20px;
+  background: linear-gradient(to right, #c0d4ec 0%,#bb9bde 19%,#ba98f5 50%,#d3deea 100%); 
+  display: flex;
+  flex-direction: column;
+  color: #0c2b4e;
+  font-family: var(--font-spartan);
+}
+.proyectos-card h3 {
+  padding-block: 5px;
+}
+.proyectos-card p {
+  font-weight: bold;
+}
 /* MEDIA QUERIES */
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
