@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+:root {
+    --font-orbitron: "Orbitron", sans-serif;
+}
+
+.club-container {
+    background-color: #9ADFF8;
+    width: 100%;
+    min-height: 90vh;
+    padding: 20px;
+}
+
+
+
+

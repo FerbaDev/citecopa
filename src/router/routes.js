@@ -1,6 +1,6 @@
 import { Comunidad } from "../components/pages/comunidad/Comunidad";
 import { Home } from "../components/pages/home/Home";
-import { Club } from "../components/pages/inicio/Club";
+import { Club } from "../components/pages/club/Club";
 import { Laboratorio } from "../components/pages/laboratorio/Laboratorio";
 
 export const routes = [
