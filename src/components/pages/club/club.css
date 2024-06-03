@@ -10,7 +10,9 @@
     min-height: 90vh;
     padding: 20px;
 }
-
+.club-container h1 {
+    color: #fff42c;
+}
 
 
 
