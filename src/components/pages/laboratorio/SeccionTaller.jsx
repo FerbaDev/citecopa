@@ -1,6 +1,6 @@
 export const SeccionTaller = () => {
   return (
-    <div className="taller-container">
+    <div className="taller-container" id="taller">
       <div className="taller-title">
         <h3 className="neon-text-white">Taller de construcciones digitales</h3>
         <img src="/laptop-img.png" alt="" />

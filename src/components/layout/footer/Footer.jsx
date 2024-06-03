@@ -29,8 +29,8 @@ export const Footer = () => {
           </Typography>
           <Box sx={{ display: "flex", flexDirection: "row", gap: "2em" }} p={2}>
             <ReactWhatsapp
-              number="549-3571-5x-xxxx"
-              message="Hola xxx"
+              number="549-2920-41-4882"
+              message="Hola! Quisiera mas info sobre Citecopa!"
               element="div"
               className="cursor-manito"
             >

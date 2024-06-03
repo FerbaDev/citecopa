@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 
 const SeccionLiga = () => {
   return (
@@ -10,9 +11,9 @@ const SeccionLiga = () => {
             <div className="liga-card liga-card-2 neon-text-pink">
                 <h3>Jugá, entrená y competí</h3>
             </div>
-            <div className="liga-card liga-card-3 neon-text-pink">
+            <Link to={"https://docs.google.com/forms/d/e/1FAIpQLSeSclp52N2qt6cKPQG99Y3yjR8LHrLUF-0XJ876ECD2E83Cfg/viewform"} className="liga-card liga-card-3 neon-text-pink" style={{cursor: "point"}}>
                 <h3>Fechas y encuentros</h3>
-            </div>
+            </Link>
         </div>
     </div>
   )

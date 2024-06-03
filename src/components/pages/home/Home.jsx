@@ -31,6 +31,17 @@ export const Home = () => {
             laboratorio de proyectos
           </Button>
         </Link>
+        <Link to={"/laboratorio#taller"}>
+          <Button
+            variant="contained"
+            sx={{
+              backgroundColor: "green",
+              ":hover": { backgroundColor: "blue" },
+            }}
+          >
+            Taller
+          </Button>
+        </Link>
         <Link to={"/comunidad"}>
           <Button
             variant="contained"
