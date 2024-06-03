@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import InstagramIcon from "@mui/icons-material/Instagram";
-import FacebookIcon from "@mui/icons-material/Facebook";
 import ReactWhatsapp from "react-whatsapp";
 import { Box, Typography } from "@mui/material";
 
@@ -38,16 +37,10 @@ export const Footer = () => {
               <WhatsAppIcon style={{ fontSize: "3em" }} />
             </ReactWhatsapp>
             <Link
-              to={"https://www.instagram.com/xxx/"}
+              to={"https://www.instagram.com/linkclubdecienciasviedma/"}
               style={{ color: "whitesmoke" }}
             >
               <InstagramIcon style={{ fontSize: "3em" }} />
-            </Link>
-            <Link
-              to={"https://wwww.facebook.com/xxx"}
-              style={{ color: "whitesmoke" }}
-            >
-              <FacebookIcon style={{ fontSize: "3em" }} />
             </Link>
           </Box>
         </Box>
