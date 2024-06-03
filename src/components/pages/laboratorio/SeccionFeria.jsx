@@ -9,8 +9,14 @@ export const SeccionFeria = () => {
                 <a href="#" className="feria-btn">Participar</a>
             </div>
             <div className="feria-cards-container">
-                <a className="feria-card" href="#">Temática central</a>
-                <a className="feria-card" href="#">Desarrollo</a>
+                <button className="feria-card">
+                  <img src="/bullseye.svg" alt="" />
+                  <p>Temática central</p>
+                </button>
+                <button className="feria-card">
+                <img src="/laptop.svg" alt="" />
+                  <p>Desarrollo</p>
+                </button>
             </div>
         </div>
     </div>
