@@ -9,7 +9,7 @@ import Login from "../components/pages/login/Login";
 import { Home } from "../components/pages/home/Home";
 import Register from "../components/pages/register/Register";
 import { Miembros } from "../components/pages/miembros/Miembros";
-
+import Contactos from "../components/pages/dashboard/Contactos";
 
 const AppRouter = () => {
   return (
@@ -34,6 +34,7 @@ const AppRouter = () => {
         <Route element={<Layout />}>
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/miembros" element={<Miembros />} />
+          <Route path="/contactos" element={<Contactos />} />
         </Route>
       </Route>
       {/* Login */}
