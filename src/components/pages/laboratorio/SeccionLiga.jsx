@@ -3,7 +3,12 @@ import { Link } from "react-router-dom"
 const SeccionLiga = () => {
   return (
     <div className="liga-container">
-        <h2 className="neon-text-white">Liga Robótica de la Comarca</h2>
+        <div className="liga-header">
+            <h2 className="neon-text-white">Liga Robótica de la Comarca</h2>
+            <div>
+            <Link to="#" className="glow-on-hover glow-link">Participar</Link>
+            </div>
+        </div>
         <div className="liga-cards-container">
             <div className="liga-card liga-card-1 neon-text-pink">
                 <h3>Armá el tuyo</h3>

@@ -2,7 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
   font-synthesis: none;
@@ -128,7 +127,11 @@ a:hover {
   top: 0;
   border-radius: 10px;
 }
-
+.glow-link {
+  padding: 10px;
+  background-color: #3f136b;
+  
+}
 @keyframes glowing {
   0% { background-position: 0 0; }
   50% { background-position: 400% 0; }
