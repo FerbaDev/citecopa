@@ -10,7 +10,7 @@ const SeccionComarca = () => {
         <div className="comarca-info-item">
           <p>Desafios de diseño</p>
           <div>
-            <Link to={"#"} className="btn">
+            <Link to={"/comarca-tech"} className="btn">
               Ver más
             </Link>
           </div>
@@ -18,7 +18,7 @@ const SeccionComarca = () => {
         <div className="comarca-info-item">
           <p>Hackatones sostenibles</p>
           <div>
-            <Link to={"#"} className="btn">
+            <Link to={"/comarca-tech"} className="btn">
               Ver más
             </Link>
           </div>
@@ -26,7 +26,7 @@ const SeccionComarca = () => {
         <div className="comarca-info-item">
           <p>Gaming y Desarrollos</p>
           <div>
-            <Link to={"#"} className="btn">
+            <Link to={"/comarca-tech"} className="btn">
               Ver más
             </Link>
           </div>
@@ -34,7 +34,7 @@ const SeccionComarca = () => {
         <div className="comarca-info-item">
           <p>Expos y charlas</p>
           <div>
-            <Link to={"#"} className="btn">
+            <Link to={"/comarca-tech"} className="btn">
               Ver más
             </Link>
           </div>

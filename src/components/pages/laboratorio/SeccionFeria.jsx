@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 
 
 export const SeccionFeria = () => {
@@ -6,7 +7,7 @@ export const SeccionFeria = () => {
         <h2 className="neon-text-white">Feria de ciencias y arte itinerante</h2>
         <div className="feria-actions">
             <div>
-                <a href="#" className="feria-btn">Participar</a>
+                <Link to={"/feria-de-ciencias"} className="feria-btn">Participar</Link>
             </div>
             <div className="feria-cards-container">
                 <button className="feria-card">
