@@ -2,7 +2,8 @@ import { Link } from "react-router-dom";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import ReactWhatsapp from "react-whatsapp";
-import { Box, Typography } from "@mui/material";
+import { Box } from "@mui/material";
+import "../../../index.css"
 
 export const Footer = () => {
   return (
@@ -24,9 +25,9 @@ export const Footer = () => {
             paddingBlock: "20px",
           }}
         >
-          <Typography variant="h5" component="h2" align="center">
+          <h2 style={{fontFamily: "var(--font-spartan)"}}>
             Nos encontrás en:
-          </Typography>
+          </h2>
           <Box sx={{ display: "flex", flexDirection: "row", gap: "2em" }} p={2}>
             <ReactWhatsapp
               number="549-2920-41-4882"
@@ -45,12 +46,12 @@ export const Footer = () => {
           </Box>
         </Box>
         <Box>
-          <Typography variant="h5" component="h2" align="center">
+          <h2 style={{fontFamily: "var(--font-spartan)", textAlign: "center"}}>
             Dirección:
-          </Typography>
-          <Typography variant="h6" component="h2" align="center">
-            xxx.
-          </Typography>
+          </h2>
+          <h3 style={{fontFamily: "var(--font-spartan)", textAlign: "center"}}>
+            Avenida siempreviva 234.
+          </h3>
         </Box>
       </Box>
 
