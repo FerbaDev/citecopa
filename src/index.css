@@ -68,7 +68,7 @@ a:hover {
 }
 
 .btn {
-  padding: 5px;
+  padding: 10px;
   border-radius: 3px;
   font-family: var(--font-spartan);
   background-color: var(--bg-violeta);

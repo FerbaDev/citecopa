@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const SeccionComarca = () => {
   return (
     <div className="comarca-container">
@@ -7,27 +9,35 @@ const SeccionComarca = () => {
       <div className="comarca-info">
         <div className="comarca-info-item">
           <p>Desafios de diseño</p>
-          <a href="#" className="btn">
-            Ver más
-          </a>
+          <div>
+            <Link to={"#"} className="btn">
+              Ver más
+            </Link>
+          </div>
         </div>
         <div className="comarca-info-item">
           <p>Hackatones sostenibles</p>
-          <a href="#" className="btn">
-            Ver más
-          </a>
+          <div>
+            <Link to={"#"} className="btn">
+              Ver más
+            </Link>
+          </div>
         </div>
         <div className="comarca-info-item">
           <p>Gaming y Desarrollos</p>
-          <a href="#" className="btn">
-            Ver más
-          </a>
+          <div>
+            <Link to={"#"} className="btn">
+              Ver más
+            </Link>
+          </div>
         </div>
         <div className="comarca-info-item">
           <p>Expos y charlas</p>
-          <a href="#" className="btn">
-            Ver más
-          </a>
+          <div>
+            <Link to={"#"} className="btn">
+              Ver más
+            </Link>
+          </div>
         </div>
       </div>
     </div>
