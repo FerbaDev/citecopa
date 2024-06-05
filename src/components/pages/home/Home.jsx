@@ -28,7 +28,7 @@ export const Home = () => {
               ":hover": { backgroundColor: "blue" },
             }}
           >
-            laboratorio de proyectos
+            laboratorio
           </Button>
         </Link>
         <Link to={"/laboratorio#taller"}>

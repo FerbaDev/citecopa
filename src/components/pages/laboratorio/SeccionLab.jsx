@@ -9,7 +9,7 @@ export const SeccionLab = () => {
         <h1 className="neon-text-white">Laboratorio de proyectos digitales</h1>
         <h3 className="neon-text-pink">Diseño 3d, Apps móviles y web, Gaming y Multimedia</h3>
         <div>
-          <Link to={"#"} className="btn">Ver más</Link>
+          <Link to={"/laboratorio-de-proyectos-digitales"} className="btn">Ver más</Link>
         </div>
       </div>
       <div className="lab-hero-images">

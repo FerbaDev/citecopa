@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export const SeccionTaller = () => {
   return (
     <div className="taller-container" id="taller">
@@ -37,7 +39,7 @@ export const SeccionTaller = () => {
           </p>
         </div>
         <div>
-          <button className="glow-on-hover">Sumarme al taller!</button>
+          <Link className="glow-on-hover">Sumarme al taller!</Link>
         </div>
       </div>
     </div>
