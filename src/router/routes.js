@@ -8,6 +8,7 @@ import Comarca from "../components/pages/comarca/Comarca";
 import { LigaRobotica } from "../components/pages/liga/LigaRobotica";
 import { FeriaCiencias } from "../components/pages/feria/FeriaCiencias";
 import { ProyectosComunitarios } from "../components/pages/proyectos/ProyectosComunitarios";
+import Formulario from "../components/pages/formulario/Formulario";
 
 export const routes = [
   {
@@ -59,5 +60,10 @@ export const routes = [
     id: "proyectos",
     path: "/proyectos-comunitarios",
     Element: ProyectosComunitarios,
+  },
+  {
+    id: "formulario",
+    path: "/formulario",
+    Element: Formulario,
   },
 ];
