@@ -11,7 +11,9 @@ const SeccionLiga = () => {
         </div>
         <div className="liga-cards-container">
             <div className="liga-card liga-card-1 neon-text-pink">
-                <h3>Armá el tuyo</h3>
+                <Link to={"/liga-robotica"}>
+                    <h3>Armá el tuyo</h3>
+                </Link>
             </div>
             <div className="liga-card liga-card-2 neon-text-pink">
                 <h3>Jugá, entrená y competí</h3>
