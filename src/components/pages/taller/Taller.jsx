@@ -17,12 +17,12 @@ const Taller = () => {
         <h2 className={styles.neonTextPink}>Prototipado Asistido</h2>
         <p>
           En el área de <strong>Prototipado Asistido</strong>, los participantes
-          explorarán la <strong>fabricación digital</strong>
+          explorarán la <strong>fabricación digital </strong>
           utilizando <strong>impresoras 3D</strong>,{" "}
           <strong>smart factory</strong> y <strong>scanners 3D</strong>.
           Aprenderán sobre <strong>fabricación avanzada</strong>,{" "}
           <strong>diseño disruptivo</strong>, el uso de{" "}
-          <strong>rutters CNC</strong>,<strong>laser cutting</strong> y{" "}
+          <strong>rutters CNC</strong>,<strong> laser cutting</strong> y{" "}
           <strong>tornería</strong>.
         </p>
         <img
@@ -72,9 +72,9 @@ const Taller = () => {
           de <strong>energías renovables</strong>, la{" "}
           <strong>reducción de residuos</strong> y{" "}
           <strong>reciclados y restauraciones</strong>. Se promueven
-          <strong>iniciativas sostenibles</strong> en{" "}
+          <strong> iniciativas sostenibles</strong> en{" "}
           <strong>agricultura sostenible</strong> y{" "}
-          <strong>tecnologías verdes</strong>
+          <strong>tecnologías verdes </strong>
           para crear <strong>productos ecológicos y biodinámicos</strong>.
         </p>
         <img
