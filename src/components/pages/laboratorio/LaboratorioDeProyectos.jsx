@@ -48,11 +48,11 @@ export const LaboratorioDeProyectos = () => {
         <h2 className={styles.neonTextPink}>Gaming y Multimedia</h2>
         <p>
           El área de <strong>Gaming y Multimedia</strong> está diseñada para
-          enseñar <strong>arte y guiones</strong>, así como{" "}
-          <strong>diseño y desarrollo</strong> de juegos. Los participantes
+          enseñar <strong>arte y guiones</strong>, así como
+          <strong> diseño y desarrollo</strong> de juegos. Los participantes
           explorarán
-          <strong>herramientas de gamificación</strong>,{" "}
-          <strong>mapping</strong>, <strong>edición de video</strong>y{" "}
+          <strong> herramientas de gamificación</strong>,
+          <strong> mapping</strong>, <strong>edición de video</strong> y{" "}
           <strong>stop motion</strong> para crear experiencias multimedia
           completas.
         </p>
