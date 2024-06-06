@@ -23,8 +23,9 @@ export const MiembrosList = ({ members, setIsChange }) => {
           <TableHead>
             <TableRow>
               <TableCell align="left">Nombre completo</TableCell>
+              <TableCell align="left">Edad</TableCell>
               <TableCell align="left">Teléfono</TableCell>
-              <TableCell align="left">Membresía</TableCell>
+              <TableCell align="left">Email</TableCell>
               <TableCell align="left">Acciones</TableCell>
             </TableRow>
           </TableHead>
@@ -35,13 +36,16 @@ export const MiembrosList = ({ members, setIsChange }) => {
                 sx={{ "&:last-child td, &:last-child th": { border: 0 } }}
               >
                 <TableCell component="th" scope="row" align="left">
-                  {member.nombre} {member.apellido}
+                  {member.firstName} {member.lastName}
+                </TableCell>
+                <TableCell component="th" scope="row" align="left">
+                  {member.age}
                 </TableCell>
                 <TableCell component="th" scope="row" align="left">
                   {member.phone}
                 </TableCell>
                 <TableCell component="th" scope="row" align="left">
-                  {member.membresia}
+                  {member.email}
                 </TableCell>
                 <TableCell component="th" scope="row" align="left">
                   <IconButton onClick={() => deleteMember(member.id)}>

@@ -39,7 +39,7 @@ const Contactos = () => {
 
   return (
     <div className={styles.container}>
-      <h2 className={styles.title}>Usuarios Inscritos</h2>
+      <h2 className={styles.title}>Usuarios que se contactaron mediante el formulario</h2>
       <ul className={styles.userList}>
         {users.map((user, index) => (
           <li key={index} className={styles.userItem}>

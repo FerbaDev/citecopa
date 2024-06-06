@@ -27,14 +27,13 @@ export const Miembros = () => {
 
   return (
     <div >
-      <header style={{ display: "flex", justifyContent: "space-around" }}>
+      <header style={{ display: "flex", justifyContent: "space-around", paddingTop: "20px" }}>
         <h1>Miembros de la asociacion</h1>
         <Link to={-1}>
           <Button variant="contained">Volver</Button>
         </Link>
       </header>
       <MiembrosList members={members} setIsChange={setIsChange} />
-      <h1>todo ok</h1>
     </div>
   );
 };
