@@ -3,6 +3,7 @@ import * as Yup from "yup";
 import { db } from "../../../firebaseConfig.js";
 import { collection, addDoc } from "firebase/firestore";
 import styles from "./ContactForm.module.css"; // Importa el módulo CSS
+import { Link } from "react-router-dom";
 
 const Formulario = () => {
   const formik = useFormik({
@@ -38,7 +39,11 @@ const Formulario = () => {
     },
   });
   return (
-    <div>
+    <div className={styles.formContainer}>
+      <div className={styles.formHeader}>
+        <h2>Formá parte del <span style={{fontFamily: "var(--font-orbitron)", color: "yellow"}}>Club de Ciencias</span></h2>
+        <p>Dejá tus datos y te contactamos para entrar al club.</p>
+      </div>
       <form onSubmit={formik.handleSubmit} className={styles.form}>
         <div className={styles.field}>
           <label htmlFor="firstName" className={styles.label}>
@@ -129,6 +134,9 @@ const Formulario = () => {
           Enviar
         </button>
       </form>
+      <div style={{marginTop: "20px"}}>
+      <Link to={-1} className={styles.button}>Volver</Link>
+      </div>
     </div>
   );
 };

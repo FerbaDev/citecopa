@@ -1,5 +1,15 @@
 /* src/components/ContactForm.module.css */
-
+.formContainer {
+  padding: 20px;
+  background-color: #9ADFF8;
+}
+.formHeader {
+  padding-block: 20px;
+  font-weight: bold;
+}
+.formHeader h2 {
+  text-wrap: balance;
+}
 .form {
   max-width: 600px;
   margin: 0 auto;

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./club.css"
 import ArrowCircleRightOutlinedIcon from '@mui/icons-material/ArrowCircleRightOutlined';
 
@@ -16,7 +17,7 @@ export const Club = () => {
         <div className="card-club-cta">
           <img src="/anotate.svg" alt="" />
           <h2>Anotate!</h2>
-          <a href="#"><ArrowCircleRightOutlinedIcon sx={{fontSize:"3em", color: "#212121"}}/></a>
+          <Link to={"/formulario"}><ArrowCircleRightOutlinedIcon sx={{fontSize:"3em", color: "#212121"}}/></Link>
         </div>
       </div>
       <div className="club-cards-container">
