@@ -7,7 +7,7 @@ export const SeccionFeria = () => {
         <h2 className="neon-text-white">Feria de ciencias y arte itinerante</h2>
         <div className="feria-actions">
             <div>
-                <Link to={"/feria-de-ciencias"} className="feria-btn">Participar</Link>
+                <Link to={"/feria-de-ciencias"} className="feria-btn">Ver más</Link>
             </div>
             <div className="feria-cards-container">
                 <button className="feria-card">
