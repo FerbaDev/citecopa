@@ -30,7 +30,7 @@ export const Layout = () => {
               element="div"
               
             >
-              <WhatsAppIcon style={{ fontSize: "3em", color: "white", backgroundColor: "#25d366", borderRadius: "50%", padding: "5px" }}/>
+              <WhatsAppIcon style={{ fontSize: "2.5em", color: "white", backgroundColor: "#25d366", borderRadius: "50%", padding: "5px" }}/>
         </ReactWhatsapp>
         </div>
       </Box>
