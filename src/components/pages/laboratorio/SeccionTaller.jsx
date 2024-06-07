@@ -39,7 +39,7 @@ export const SeccionTaller = () => {
           </p>
         </div>
         <div>
-          <Link to={"/taller"} className="glow-on-hover">Sumarme al taller!</Link>
+          <Link to={"/taller"} className="glow-on-hover">Ver más</Link>
         </div>
       </div>
     </div>
