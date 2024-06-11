@@ -30,7 +30,7 @@ export const Footer = () => {
           </h2>
           <Box sx={{ display: "flex", flexDirection: "row", gap: "2em" }} p={2}>
             <ReactWhatsapp
-              number="549-2920-41-4882"
+              number="549-2920-35-4587"
               message="Hola! Quisiera mas info sobre Citecopa!"
               element="div"
               className="cursor-manito"

@@ -25,7 +25,7 @@ export const Layout = () => {
                 height: "2em",
                 width: "auto",}}>
         <ReactWhatsapp
-              number="549-2920-41-4882"
+              number="549-2920-35-4587"
               message="Hola! Quisiera mas info sobre Citecopa!"
               element="div"
               

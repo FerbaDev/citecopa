@@ -1,15 +1,39 @@
+import { Link } from 'react-router-dom';
 import styles from './ClubInfo.module.css';
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 
 const ClubInfo = () => {
+
+    const location = useLocation();
+
+    useEffect(() => {
+        if (location.hash) {
+          const element = document.getElementById(location.hash.slice(1));
+          if (element) {
+            const offset = 100; // Ajusta este valor según tus necesidades
+            const bodyRect = document.body.getBoundingClientRect().top;
+            const elementRect = element.getBoundingClientRect().top;
+            const elementPosition = elementRect - bodyRect;
+            const offsetPosition = elementPosition - offset;
+    
+            window.scrollTo({
+              top: offsetPosition,
+              behavior: 'smooth',
+            });
+          }
+        }
+      }, [location]);
+
     return (
         <div className={styles.container}>
             <header className={styles.header}>
                 <h1>Club de Ciencias</h1>
                 <p>Únete a nuestro Club de Ciencias y descubre el fascinante mundo de la ciencia y la tecnología.</p>
-                <button className={styles.ctaButton}>Únete Ahora</button>
+                <Link to={"/formulario"} className={styles.ctaButton}>Únete Ahora</Link>
             </header>
 
-            <section className={styles.section}>
+            <section className={styles.section} id='explora-ciencias'>
                 <h2>Explora Ciencias</h2>
                 <p>
                     Podrás aprender sobre <strong>ciencias naturales, conservación de especies, 
@@ -20,7 +44,7 @@ const ClubInfo = () => {
                 <img src="ruta-a-imagen-explora-ciencias.jpg" alt="Explora Ciencias" className={styles.image}/>
             </section>
 
-            <section className={styles.section}>
+            <section className={styles.section} id='creatilab'>
                 <h2>CreatiLab</h2>
                 <p>
                     En el <strong>CreatiLab</strong>, podrás experimentar con <strong>inteligencia artificial, realidad virtual y aumentada, 
@@ -30,7 +54,7 @@ const ClubInfo = () => {
                 <img src="ruta-a-imagen-creatilab.jpg" alt="CreatiLab" className={styles.image}/>
             </section>
 
-            <section className={styles.section}>
+            <section className={styles.section} id='tecnoarte'>
                 <h2>Innova y Tecno Arte</h2>
                 <p>
                     En <strong>Innova y Tecno Arte</strong>, podrás explorar el mundo de la <strong>música e iluminación</strong>, 
@@ -40,7 +64,7 @@ const ClubInfo = () => {
                 <img src="ruta-a-imagen-innova-tecno-arte.jpg" alt="Innova y Tecno Arte" className={styles.image}/>
             </section>
 
-            <section className={styles.section}>
+            <section className={styles.section} id='red-de-clubes'>
                 <h2>Red de Clubes</h2>
                 <p>
                     Con la <strong>Red de Clubes</strong>, te ayudamos a <strong>armar tu club en la escuela o en tu barrio</strong>. 

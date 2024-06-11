@@ -23,22 +23,22 @@ export const Club = () => {
           </div>
         </div>
         <div className="club-cards-container">
-          <div className="club-card">
+          <Link to={"/club#creatilab"} className="club-card">
             <img src="/creatilab.svg" alt="" />
             <p>Creatilab</p>
-          </div>
-          <div className="club-card">
+          </Link>
+          <Link to={"/club#explora-ciencias"} className="club-card">
             <img src="/microscopio.svg" alt="" />
             <p>Explorá ciencias</p>
-          </div>
-          <div className="club-card">
+          </Link>
+          <Link to={"/club#tecnoarte"} className="club-card">
             <img src="/tecnoarte.svg" alt="" />
             <p>Tecnoarte</p>
-          </div>
-          <div className="club-card">
+          </Link>
+          <Link to={"/club#red-de-clubes"} className="club-card">
             <img src="/red-de-clubes.svg" alt="" />
             <p>Red de clubes</p>
-          </div>
+          </Link>
         </div>
         </div>
       </div>
