@@ -1,3 +1,4 @@
+import ReactWhatsapp from 'react-whatsapp';
 import styles from './Comarca.module.css';
 
 const Comarca = () => {
@@ -6,6 +7,16 @@ const Comarca = () => {
             <header className={styles.header}>
                 <h1 className={styles.neonTextWhite}>Comarca Tech</h1>
                 <p>Explora, aprende y diviértete con nuestras actividades tecnológicas para niños y adolescentes.</p>
+                <div>
+                    <ReactWhatsapp
+                        number="549-2920-35-4587"
+                        message="Hola! Quisiera mas info sobre la Comarca Tech!"
+                        element="div"
+                        className="cursor-manito btn"
+                        >
+                        Quiero más info!
+                    </ReactWhatsapp>
+                </div>
             </header>
 
             <section className={styles.section}>

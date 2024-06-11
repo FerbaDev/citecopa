@@ -8,6 +8,16 @@ export const FeriaCiencias = () => {
             <header className={styles.header}>
                 <h1 className={styles.neonTextWhite}>Feria de Ciencias y Arte Itinerante</h1>
                 <p>Explora, aprende y participa en nuestra feria dedicada a la ciencia y el arte para niños y adolescentes.</p>
+                <div>
+                    <ReactWhatsapp
+                        number="549-2920-35-4587"
+                        message="Hola! Quisiera mas info sobre la Feria de Ciencias!"
+                        element="div"
+                        className="cursor-manito btn"
+                        >
+                        Quiero más info!
+                    </ReactWhatsapp>
+                </div>
             </header>
 
             <section className={styles.section}>
@@ -41,7 +51,7 @@ export const FeriaCiencias = () => {
             </section>
             
             <ReactWhatsapp 
-              number="549-2920-41-4882"
+              number="549-2920-35-4587"
               message="Hola! Quisiera participar de la Feria de ciencias!"
               element="div"
               className={styles.glowOnHover}

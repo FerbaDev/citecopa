@@ -1,3 +1,4 @@
+import ReactWhatsapp from "react-whatsapp";
 import styles from "./ProyectosComunitarios.module.css";
 
 export const ProyectosComunitarios = () => {
@@ -9,6 +10,16 @@ export const ProyectosComunitarios = () => {
           Descubre nuestras iniciativas tecnológicas diseñadas para fomentar la
           participación y el desarrollo comunitario.
         </p>
+        <div>
+          <ReactWhatsapp
+            number="549-2920-35-4587"
+            message="Hola! Quisiera mas info sobre la Feria de Ciencias!"
+            element="div"
+            className="cursor-manito btn"
+          >
+            Quiero más info!
+          </ReactWhatsapp>
+        </div>
       </header>
 
       <section className={styles.section}>

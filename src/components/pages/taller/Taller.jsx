@@ -1,3 +1,4 @@
+import ReactWhatsapp from "react-whatsapp";
 import ScrollToTop from "../../../router/ScrollToTop";
 import styles from "./Taller.module.css";
 
@@ -13,6 +14,16 @@ const Taller = () => {
           Participa en nuestras actividades tecnológicas diseñadas para niños y
           adolescentes.
         </p>
+        <div>
+          <ReactWhatsapp
+              number="549-2920-35-4587"
+              message="Hola! Quisiera mas info sobre el Taller de Construcciones Digitales!"
+              element="div"
+              className="cursor-manito btn"
+            >
+              Quiero más info!
+          </ReactWhatsapp>
+        </div>
       </header>
 
       <section className={styles.section}>

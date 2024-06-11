@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 import { Galeria } from "./Galeria"
 import styles from "./Liga.module.css"
+import ReactWhatsapp from "react-whatsapp"
 
 export const LigaRobotica = () => {
   return (
@@ -8,6 +9,16 @@ export const LigaRobotica = () => {
       <header className={styles.header}>
           <h1 className={styles.neonTextWhite}>Liga Robótica de la Comarca</h1>
           <p>Únete a nuestra liga y desarrolla tus habilidades en robótica a través de diversas actividades y competencias.</p>
+          <div>
+                    <ReactWhatsapp
+                        number="549-2920-35-4587"
+                        message="Hola! Quisiera mas info sobre la Liga Robótica de la Comarca!"
+                        element="div"
+                        className="cursor-manito btn"
+                        >
+                        Quiero más info!
+                    </ReactWhatsapp>
+                </div>
       </header>
       <Link to={"https://docs.google.com/forms/d/e/1FAIpQLSeSclp52N2qt6cKPQG99Y3yjR8LHrLUF-0XJ876ECD2E83Cfg/viewform"} className={styles.glowOnHover}>Ver fechas</Link>
       <section className={styles.section}>
