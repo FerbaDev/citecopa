@@ -1,3 +1,4 @@
+import ReactWhatsapp from "react-whatsapp";
 import styles from "./LaboratorioDP.module.css";
 
 export const LaboratorioDeProyectos = () => {
@@ -8,6 +9,17 @@ export const LaboratorioDeProyectos = () => {
           Laboratorio de Proyectos Digitales
         </h1>
         <p>Explora, crea y aprende con nuestras actividades tecnológicas.</p>
+        <div>
+          <ReactWhatsapp
+              number="549-2920-35-4587"
+              message="Hola! Quisiera mas info sobre el Laboratorio de Proyectos Digitales!"
+              element="div"
+              className="cursor-manito btn"
+            >
+              Quiero más info!
+          </ReactWhatsapp>
+        </div>
+        
       </header>
 
       <section className={styles.section}>

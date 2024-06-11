@@ -35,7 +35,7 @@ export const menuItems = [
   },
   {
     id: "comarca",
-    path: "/comarcatech",
+    path: "/comarca-tech",
     title: "Comarca Tech",
     Icon: MemoryIcon,
   },
