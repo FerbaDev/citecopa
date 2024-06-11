@@ -11,6 +11,7 @@ import Register from "../components/pages/register/Register";
 import { Miembros } from "../components/pages/miembros/Miembros";
 import Contactos from "../components/pages/dashboard/Contactos";
 
+
 const AppRouter = () => {
   return (
     <Routes>
@@ -24,6 +25,7 @@ const AppRouter = () => {
         </Route>
       </Route> */}
       {/* Para todos los usuarios */}
+      
       <Route element={<Layout />}>
         {routes.map(({ id, path, Element }) => (
           <Route key={id} path={path} element={<Element />} />

@@ -1,8 +1,10 @@
+import ScrollToTop from "../../../router/ScrollToTop";
 import styles from "./Taller.module.css";
 
 const Taller = () => {
   return (
     <div className={styles.container}>
+      <ScrollToTop />
       <header className={styles.header}>
         <h1 className={styles.neonTextWhite}>
           Taller de Construcciones Digitales
