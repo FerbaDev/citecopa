@@ -30,7 +30,7 @@ const ClubInfo = () => {
             <header className={styles.header}>
                 <h1>Club de Ciencias</h1>
                 <p>Únete a nuestro Club de Ciencias y descubre el fascinante mundo de la ciencia y la tecnología.</p>
-                <Link to={"/formulario"} className={styles.ctaButton}>Únete Ahora</Link>
+                <Link to={"/formulario"} className={styles.ctaButton}>Unirme Ahora</Link>
             </header>
 
             <section className={styles.section} id='explora-ciencias'>
@@ -72,6 +72,7 @@ const ClubInfo = () => {
                 </p>
                 <img src="/red-de-clubes2.webp" alt="Red de Clubes" className={styles.image}/>
             </section>
+            <Link to={"/formulario"} className={styles.ctaButton}>Unirme Ahora</Link>
         </div>
     );
 };

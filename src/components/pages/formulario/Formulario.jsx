@@ -4,6 +4,7 @@ import { db } from "../../../firebaseConfig.js";
 import { collection, addDoc } from "firebase/firestore";
 import styles from "./ContactForm.module.css"; // Importa el módulo CSS
 import { Link } from "react-router-dom";
+import ScrollToTop from "../../../router/ScrollToTop.jsx";
 
 const Formulario = () => {
   const formik = useFormik({
@@ -40,6 +41,7 @@ const Formulario = () => {
   });
   return (
     <div className={styles.formContainer}>
+      <ScrollToTop />
       <div className={styles.formHeader}>
         <h2>Formá parte del <span style={{fontFamily: "var(--font-orbitron)", color: "yellow"}}>Club de Ciencias</span></h2>
         <p>Dejá tus datos y te contactamos para entrar al club.</p>
