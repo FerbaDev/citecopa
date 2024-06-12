@@ -41,7 +41,7 @@ const ClubInfo = () => {
                     Descubre los <strong>ecosistemas y acciones ambientales</strong> y explora las <strong>historias de las ciencias </strong> 
                     de manera divertida e interactiva.
                 </p>
-                <img src="ruta-a-imagen-explora-ciencias.jpg" alt="Explora Ciencias" className={styles.image}/>
+                <img src="/img-club-de-ciencias1.webp" alt="Explora Ciencias" className={styles.image}/>
             </section>
 
             <section className={styles.section} id='creatilab'>
@@ -51,7 +51,7 @@ const ClubInfo = () => {
                     gaming y experimentos de ciencia viva</strong>. Construye <strong>artilugios tecnológicos</strong> y participa en 
                     emocionantes <strong>construcciones</strong> que te harán sentir como un verdadero científico.
                 </p>
-                <img src="ruta-a-imagen-creatilab.jpg" alt="CreatiLab" className={styles.image}/>
+                <img src="/creatilab2.webp" alt="CreatiLab" className={styles.image}/>
             </section>
 
             <section className={styles.section} id='tecnoarte'>
@@ -61,7 +61,7 @@ const ClubInfo = () => {
                     y el <strong>diseño de artículos de moda</strong>. Descubre el arte del <strong>upcycling</strong> y participa en 
                     investigaciones para <strong>descubrir nuevas propuestas</strong>.
                 </p>
-                <img src="ruta-a-imagen-innova-tecno-arte.jpg" alt="Innova y Tecno Arte" className={styles.image}/>
+                <img src="/tecnoarte.webp" alt="Innova y Tecno Arte" className={styles.image}/>
             </section>
 
             <section className={styles.section} id='red-de-clubes'>
@@ -70,7 +70,7 @@ const ClubInfo = () => {
                     Con la <strong>Red de Clubes</strong>, te ayudamos a <strong>armar tu club en la escuela o en tu barrio</strong>. 
                     Nosotros te apoyamos para que puedas crear tu propio espacio de ciencia y tecnología donde quiera que estés.
                 </p>
-                <img src="ruta-a-imagen-red-de-clubes.jpg" alt="Red de Clubes" className={styles.image}/>
+                <img src="/red-de-clubes2.webp" alt="Red de Clubes" className={styles.image}/>
             </section>
         </div>
     );
