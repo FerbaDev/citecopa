@@ -10,15 +10,13 @@ const SeccionLiga = () => {
             </div>
         </div>
         <div className="liga-cards-container">
-            <div className="liga-card liga-card-1 neon-text-pink">
-                <Link to={"/liga-robotica"}>
+            <Link to={"/liga-robotica/#arma-el-tuyo"} className="liga-card liga-card-1 neon-text-pink">
                     <h3>Armá el tuyo</h3>
-                </Link>
-            </div>
-            <div className="liga-card liga-card-2 neon-text-pink">
+            </Link>
+            <Link to={"/liga-robotica#juga-entrena-competi"} className="liga-card liga-card-2 neon-text-pink">
                 <h3>Jugá, entrená y competí</h3>
-            </div>
-            <Link to={"/liga-robotica"} className="liga-card liga-card-3 neon-text-pink" style={{cursor: "point"}}>
+            </Link>
+            <Link to={"/liga-robotica#fechas"} className="liga-card liga-card-3 neon-text-pink" style={{cursor: "point"}}>
                 <h3>Fechas y encuentros</h3>
             </Link>
         </div>

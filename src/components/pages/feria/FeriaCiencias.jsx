@@ -47,32 +47,38 @@ export const FeriaCiencias = () => {
             </header>
 
             <section className={styles.section}>
+              <div className={styles.sectionInfo}>
                 <h2 className={styles.neonTextPink}>Temática Central</h2>
                 <p>
                     Exploramos diversos temas relacionados con la ciencia y el arte. 
                     Cada evento se centra en un tema específico, como la robótica, la biotecnología, el arte digital, entre otros. 
                     Este espacio está diseñado para inspirar a los jóvenes a explorar y aprender sobre nuevas disciplinas.
                 </p>
+              </div>
                 <img src="ruta-a-imagen-tematica.jpg" alt="Temática Central" className={styles.image}/>
             </section>
 
-            <section className={styles.section}>
+            <section className={styles.section2}>
+              <div className={styles.sectionInfo}>
                 <h2 className={styles.neonTextPink} id='desarrollo'>Desarrollo</h2>
                 <p>
                     El área de <strong>Desarrollo</strong> está dedicada a talleres y actividades prácticas donde los participantes 
                     pueden aplicar lo aprendido en proyectos reales. Aquí, los niños y adolescentes podrán trabajar en equipo para 
                     desarrollar sus propias creaciones científicas y artísticas.
                 </p>
+              </div>
                 <img src="ruta-a-imagen-desarrollo.jpg" alt="Desarrollo" className={styles.image}/>
             </section>
 
             <section className={styles.section}>
+              <div className={styles.sectionInfo}>
                 <h2 className={styles.neonTextPink}>Participar</h2>
                 <p>
                     Invitamos a todos a unirse a nuestra feria. Ya sea como expositor, voluntario o 
                     visitante, hay muchas maneras de involucrarse y contribuir a este evento itinerante. Únete a nosotros y sé parte 
                     de esta emocionante experiencia.
                 </p>
+              </div>
                 <img src="ruta-a-imagen-participar.jpg" alt="Participar" className={styles.image}/>
             </section>
             

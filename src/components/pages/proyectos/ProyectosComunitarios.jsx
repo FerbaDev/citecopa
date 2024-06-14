@@ -25,14 +25,16 @@ export const ProyectosComunitarios = () => {
       </header>
 
       <section className={styles.section}>
-        <h2 className={styles.neonTextPink}>Inclusión Digital</h2>
-        <p>
-          En <strong>Inclusión Digital</strong>, trabajamos para cerrar la
-          brecha digital proporcionando acceso a tecnologías y habilidades
-          digitales. A través de talleres y programas educativos, capacitamos a
-          niños y adolescentes para que puedan participar plenamente en la
-          sociedad digital.
-        </p>
+        <div className={styles.sectionInfo}>
+          <h2 className={styles.neonTextPink}>Inclusión Digital</h2>
+          <p>
+            En <strong>Inclusión Digital</strong>, trabajamos para cerrar la
+            brecha digital proporcionando acceso a tecnologías y habilidades
+            digitales. A través de talleres y programas educativos, capacitamos a
+            niños y adolescentes para que puedan participar plenamente en la
+            sociedad digital.
+          </p>
+        </div>
         <img
           src="ruta-a-imagen-inclusion-digital.jpg"
           alt="Inclusión Digital"
@@ -40,15 +42,17 @@ export const ProyectosComunitarios = () => {
         />
       </section>
 
-      <section className={styles.section}>
-        <h2 className={styles.neonTextPink}>Tecnologías Sociales</h2>
-        <p>
-          Nuestra área de <strong>Tecnologías Sociales</strong> se enfoca en el
-          desarrollo de soluciones tecnológicas que abordan problemas sociales.
-          Desde aplicaciones móviles que facilitan el acceso a servicios hasta
-          plataformas que promueven la colaboración comunitaria, utilizamos la
-          tecnología para mejorar la calidad de vida de las personas.
-        </p>
+      <section className={styles.section2}>
+        <div className={styles.sectionInfo}>
+          <h2 className={styles.neonTextPink}>Tecnologías Sociales</h2>
+          <p>
+            Nuestra área de <strong>Tecnologías Sociales</strong> se enfoca en el
+            desarrollo de soluciones tecnológicas que abordan problemas sociales.
+            Desde aplicaciones móviles que facilitan el acceso a servicios hasta
+            plataformas que promueven la colaboración comunitaria, utilizamos la
+            tecnología para mejorar la calidad de vida de las personas.
+          </p>
+        </div>
         <img
           src="ruta-a-imagen-tecnologias-sociales.jpg"
           alt="Tecnologías Sociales"
@@ -57,14 +61,16 @@ export const ProyectosComunitarios = () => {
       </section>
 
       <section className={styles.section}>
-        <h2 className={styles.neonTextPink}>Ciencia Ciudadana</h2>
-        <p>
-          En <strong>Ciencia Ciudadana</strong>, fomentamos la participación
-          activa de la comunidad en proyectos científicos. Los participantes
-          pueden contribuir a la recolección y análisis de datos, ayudando a los
-          investigadores a resolver problemas locales y globales. Esta área
-          promueve el aprendizaje colaborativo y la conciencia científica.
-        </p>
+        <div className={styles.sectionInfo}>
+          <h2 className={styles.neonTextPink}>Ciencia Ciudadana</h2>
+          <p>
+            En <strong>Ciencia Ciudadana</strong>, fomentamos la participación
+            activa de la comunidad en proyectos científicos. Los participantes
+            pueden contribuir a la recolección y análisis de datos, ayudando a los
+            investigadores a resolver problemas locales y globales. Esta área
+            promueve el aprendizaje colaborativo y la conciencia científica.
+          </p>
+        </div>
         <img
           src="ruta-a-imagen-ciencia-ciudadana.jpg"
           alt="Ciencia Ciudadana"
