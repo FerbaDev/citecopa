@@ -55,7 +55,7 @@ export const FeriaCiencias = () => {
                     Este espacio está diseñado para inspirar a los jóvenes a explorar y aprender sobre nuevas disciplinas.
                 </p>
               </div>
-                <img src="ruta-a-imagen-tematica.jpg" alt="Temática Central" className={styles.image}/>
+                <img src="tematica-central.webp" alt="Temática Central" className={styles.image}/>
             </section>
 
             <section className={styles.section2}>
