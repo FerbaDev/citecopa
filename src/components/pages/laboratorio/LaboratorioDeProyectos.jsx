@@ -1,9 +1,11 @@
 import ReactWhatsapp from "react-whatsapp";
 import styles from "./LaboratorioDP.module.css";
+import ScrollToTop from "../../../router/ScrollToTop";
 
 export const LaboratorioDeProyectos = () => {
   return (
     <div className={styles.container}>
+      <ScrollToTop />
       <header className={styles.header}>
         <h1 className={styles.neonTextWhite}>
           Laboratorio de Proyectos Digitales

@@ -1,9 +1,11 @@
 import ReactWhatsapp from "react-whatsapp";
 import styles from "./ProyectosComunitarios.module.css";
+import ScrollToTop from "../../../router/ScrollToTop";
 
 export const ProyectosComunitarios = () => {
   return (
     <div className={styles.container}>
+      <ScrollToTop />
       <header className={styles.header}>
         <h1 className={styles.neonTextWhite}>Proyectos Comunitarios</h1>
         <p>

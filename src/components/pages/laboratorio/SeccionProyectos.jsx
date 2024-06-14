@@ -10,14 +10,14 @@ const SeccionProyectos = () => {
             <h3>Inclusión digital</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At cum id alias corporis tenetur ducimus!</p>
           </Link>
-          <div className="proyectos-card">
+          <Link to={"/proyectos-comunitarios"} className="proyectos-card">
             <h3>Tecnologías sociales</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At cum id alias corporis tenetur ducimus!</p>
-          </div>
-          <div className="proyectos-card">
+          </Link>
+          <Link to={"/proyectos-comunitarios"} className="proyectos-card">
             <h3>Ciencia ciudadana</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At cum id alias corporis tenetur ducimus!</p>
-          </div>
+          </Link>
         </div>
     </div>
   )

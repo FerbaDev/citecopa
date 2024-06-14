@@ -10,14 +10,14 @@ export const SeccionFeria = () => {
                 <Link to={"/feria-de-ciencias"} className="feria-btn">Ver más</Link>
             </div>
             <div className="feria-cards-container">
-                <button className="feria-card">
+                <Link to={"/feria-de-ciencias"} className="feria-card">
                   <img src="/bullseye.svg" alt="" />
                   <p>Temática central</p>
-                </button>
-                <button className="feria-card">
+                </Link>
+                <Link to={"/feria-de-ciencias#desarrollo"} className="feria-card">
                 <img src="/laptop.svg" alt="" />
                   <p>Desarrollo</p>
-                </button>
+                </Link>
             </div>
         </div>
     </div>

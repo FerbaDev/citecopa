@@ -2,10 +2,12 @@ import { Link } from "react-router-dom"
 import { Galeria } from "./Galeria"
 import styles from "./Liga.module.css"
 import ReactWhatsapp from "react-whatsapp"
+import ScrollToTop from "../../../router/ScrollToTop"
 
 export const LigaRobotica = () => {
   return (
     <div className={styles.container}>
+        <ScrollToTop />
       <header className={styles.header}>
           <h1 className={styles.neonTextWhite}>Liga Robótica de la Comarca</h1>
           <p>Únete a nuestra liga y desarrolla tus habilidades en robótica a través de diversas actividades y competencias.</p>
