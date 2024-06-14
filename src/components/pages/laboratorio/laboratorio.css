@@ -94,7 +94,7 @@
 /* SECCION Comarca */
 .comarca-container {
   max-width: 100%;
-  background-image: url("/bg-comarca.jpg");
+  background-image: url("/bg-comarca.webp");
   background-size: cover;
   background-position: center;
   padding: 20px;
@@ -166,15 +166,15 @@
   font-family: var(--font-spartan);
 }
 .liga-card-1 {
-  background-image: url("/liga-robotica1.jpg");
+  background-image: url("/liga-robotica1.webp");
   background-position: center top;
 }
 .liga-card-2 {
-  background-image: url("/liga-robotica2.jpg");
+  background-image: url("/liga-robotica2.webp");
   background-position: center top;
 }
 .liga-card-3 {
-  background-image: url("/liga-robotica3.jpg");
+  background-image: url("/liga-robotica3.webp");
   background-position: center top;
 }
 /* SECCION Feria de ciencias */

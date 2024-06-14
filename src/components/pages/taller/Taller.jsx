@@ -59,7 +59,7 @@ const Taller = () => {
           </p>
         </div>
         <img
-          src="ruta-a-imagen-robotica.jpg"
+          src="internet-dlc.webp"
           alt="Robótica e IoT"
           className={styles.image}
         />
@@ -78,7 +78,7 @@ const Taller = () => {
           </p>
         </div>
         <img
-          src="ruta-a-imagen-electronica.jpg"
+          src="electronica-aplicada.webp"
           alt="Electrónica Práctica"
           className={styles.image}
         />
@@ -99,7 +99,7 @@ const Taller = () => {
           </p>
         </div>
         <img
-          src="ruta-a-imagen-sustentabilidad.jpg"
+          src="sustentabilidad-en-accion.webp"
           alt="Sustentabilidad"
           className={styles.image}
         />

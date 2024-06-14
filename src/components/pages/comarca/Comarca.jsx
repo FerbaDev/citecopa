@@ -30,7 +30,7 @@ const Comarca = () => {
                         innovadoras hasta la construcción de prototipos funcionales, este espacio fomenta la inventiva y el pensamiento crítico.
                     </p>
                 </div>
-                <img src="ruta-a-imagen-desafios.jpg" alt="Desafíos de Diseño" className={styles.image}/>
+                <img src="desafios.webp" alt="Desafíos de Diseño" className={styles.image}/>
             </section>
 
             <section className={styles.section2}>
@@ -42,7 +42,7 @@ const Comarca = () => {
                         el impacto ambiental y fomenten prácticas ecológicas.
                     </p>
                 </div>
-                <img src="ruta-a-imagen-hackaton.jpg" alt="Hackatón de Diseños" className={styles.image}/>
+                <img src="hackaton.webp" alt="Hackatón de Diseños" className={styles.image}/>
             </section>
 
             <section className={styles.section}>
@@ -54,7 +54,7 @@ const Comarca = () => {
                         interactivas y a utilizar herramientas de desarrollo de juegos.
                     </p>
                 </div>
-                <img src="ruta-a-imagen-gaming.jpg" alt="Gaming y Desarrollos" className={styles.image}/>
+                <img src="gaming-y-desarrollos.webp" alt="Gaming y Desarrollos" className={styles.image}/>
             </section>
 
             <section className={styles.section2}>
@@ -66,7 +66,7 @@ const Comarca = () => {
                         y conocer las últimas tendencias en el mundo tecnológico.
                     </p>
                 </div>
-                <img src="ruta-a-imagen-expo.jpg" alt="Expo y Charlas" className={styles.image}/>
+                <img src="expo-y-charlas.webp" alt="Expo y Charlas" className={styles.image}/>
             </section>
         </div>
   )

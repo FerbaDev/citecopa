@@ -5,7 +5,7 @@ const SeccionLiga = () => {
     <div className="liga-container">
         <div className="liga-header">
             <h2 className="neon-text-white">Liga Robótica de la Comarca</h2>
-            <div>
+            <div style={{marginBottom: "50px"}}>
             <Link to="/liga-robotica" className="glow-on-hover2">Participar</Link>
             </div>
         </div>
