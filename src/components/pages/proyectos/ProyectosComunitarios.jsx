@@ -59,7 +59,7 @@ export const ProyectosComunitarios = () => {
           </p>
         </div>
         <img
-          src="ruta-a-imagen-inclusion-digital.jpg"
+          src="inclusion-digital.webp"
           alt="Inclusión Digital"
           className={styles.image}
         />
@@ -77,7 +77,7 @@ export const ProyectosComunitarios = () => {
           </p>
         </div>
         <img
-          src="ruta-a-imagen-tecnologias-sociales.jpg"
+          src="tecnologias-sociales.webp"
           alt="Tecnologías Sociales"
           className={styles.image}
         />
@@ -95,7 +95,7 @@ export const ProyectosComunitarios = () => {
           </p>
         </div>
         <img
-          src="ruta-a-imagen-ciencia-ciudadana.jpg"
+          src="ciencia-ciudadana.webp"
           alt="Ciencia Ciudadana"
           className={styles.image}
         />
