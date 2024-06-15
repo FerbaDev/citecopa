@@ -47,10 +47,10 @@ export const Footer = () => {
         </Box>
         <Box>
           <h2 style={{fontFamily: "var(--font-spartan)", textAlign: "center"}}>
-            Dirección:
+            Dirección: Italia 401 ¨b¨.
           </h2>
           <h3 style={{fontFamily: "var(--font-spartan)", textAlign: "center"}}>
-            Avenida siempreviva 234.
+            Viedma, Río Negro 
           </h3>
         </Box>
       </Box>

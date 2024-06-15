@@ -1,8 +1,31 @@
 import ReactWhatsapp from "react-whatsapp";
 import styles from "./ProyectosComunitarios.module.css";
 import ScrollToTop from "../../../router/ScrollToTop";
+import { useLocation } from "react-router-dom";
+import { useEffect } from "react";
 
 export const ProyectosComunitarios = () => {
+
+  const location = useLocation();
+
+    useEffect(() => {
+        if (location.hash) {
+          const element = document.getElementById(location.hash.slice(1));
+          if (element) {
+            const offset = 100; // Ajusta este valor según tus necesidades
+            const bodyRect = document.body.getBoundingClientRect().top;
+            const elementRect = element.getBoundingClientRect().top;
+            const elementPosition = elementRect - bodyRect;
+            const offsetPosition = elementPosition - offset;
+    
+            window.scrollTo({
+              top: offsetPosition,
+              behavior: 'smooth',
+            });
+          }
+        }
+      }, [location]);
+
   return (
     <div className={styles.container}>
       <ScrollToTop />
@@ -24,7 +47,7 @@ export const ProyectosComunitarios = () => {
         </div>
       </header>
 
-      <section className={styles.section}>
+      <section className={styles.section} id="inclusion-digital">
         <div className={styles.sectionInfo}>
           <h2 className={styles.neonTextPink}>Inclusión Digital</h2>
           <p>
@@ -42,7 +65,7 @@ export const ProyectosComunitarios = () => {
         />
       </section>
 
-      <section className={styles.section2}>
+      <section className={styles.section2} id="tecnologias-sociales">
         <div className={styles.sectionInfo}>
           <h2 className={styles.neonTextPink}>Tecnologías Sociales</h2>
           <p>
@@ -60,7 +83,7 @@ export const ProyectosComunitarios = () => {
         />
       </section>
 
-      <section className={styles.section}>
+      <section className={styles.section} id="ciencia-ciudadana">
         <div className={styles.sectionInfo}>
           <h2 className={styles.neonTextPink}>Ciencia Ciudadana</h2>
           <p>
