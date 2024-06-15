@@ -67,7 +67,7 @@ export const FeriaCiencias = () => {
                     desarrollar sus propias creaciones científicas y artísticas.
                 </p>
               </div>
-                <img src="ruta-a-imagen-desarrollo.jpg" alt="Desarrollo" className={styles.image}/>
+                <img src="desarrollo.webp" alt="Desarrollo" className={styles.image}/>
             </section>
 
             <section className={styles.section}>
@@ -79,7 +79,7 @@ export const FeriaCiencias = () => {
                     de esta emocionante experiencia.
                 </p>
               </div>
-                <img src="ruta-a-imagen-participar.jpg" alt="Participar" className={styles.image}/>
+                <img src="up.svg" alt="Participar" className={styles.image}/>
             </section>
             
             <ReactWhatsapp 
