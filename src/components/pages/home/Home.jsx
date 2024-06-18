@@ -8,7 +8,7 @@ export const Home = () => {
     <div className="home">
       <div className="video-container">
         <video autoPlay loop muted className="video-background">
-          <source src="/background2.webm" type="video/webm" />
+          <source src="/background3.webm" type="video/webm" />
           Your browser does not support the video tag.
         </video>
       </div>
