@@ -1,7 +1,68 @@
-
+import ReactWhatsapp from 'react-whatsapp';
+import styles from './Comunidad.module.css';
 
 export const Comunidad = () => {
   return (
-    <div style={{height: "90vh", display: "grid", placeItems: "center"}}><h1>en construcción...</h1></div>
+    <div className={styles.container}>
+            <header className={styles.header}>
+                <h1>Comunidad del Club de Ciencias</h1>
+                <p>Únete a nuestra comunidad y ayúdanos a inspirar a la próxima generación de científicos y tecnólogos en Viedma, Río Negro, Argentina.</p>
+            </header>
+
+            <section className={styles.section}>
+                <h2>Colaboradores</h2>
+                <p>
+                    Nuestro club de ciencias se enorgullece de trabajar con colaboradores comprometidos que aportan su experiencia y recursos 
+                    para el desarrollo de nuestros programas. Si deseas colaborar con nosotros, contáctanos para explorar las oportunidades de asociación.
+                </p>
+            </section>
+
+            <section className={styles.section}>
+                <h2>Voluntarios</h2>
+                <p>
+                    Los voluntarios son el corazón de nuestra comunidad. Desde la organización de eventos hasta la tutoría de nuestros jóvenes científicos, 
+                    hay muchas maneras de contribuir. Únete como voluntario y marca la diferencia en la vida de los niños y adolescentes.
+                </p>
+            </section>
+
+            <section className={styles.section}>
+                <h2>Redes de Apoyo</h2>
+                <p>
+                    Formamos parte de diversas redes de apoyo que nos ayudan a expandir nuestro impacto. Estas redes incluyen otras organizaciones sin fines de lucro, 
+                    instituciones educativas y grupos comunitarios. Juntos, podemos lograr más.
+                </p>
+            </section>
+
+            <section className={styles.section}>
+                <h2>Participación Ciudadana</h2>
+                <p>
+                    Fomentamos la participación ciudadana a través de proyectos y actividades que involucran a la comunidad local. 
+                    Creemos que la ciencia y la tecnología pueden ser herramientas poderosas para el cambio social.
+                </p>
+            </section>
+
+            <section className={styles.section}>
+                <h2>Donantes y Reconocimientos</h2>
+                <p>
+                    Agradecemos profundamente a nuestros donantes, cuyo apoyo financiero y donaciones en especie hacen posible nuestro trabajo. 
+                    Aceptamos donaciones de tecnología en desuso y realizamos subastas para recaudar fondos. Gracias a su generosidad, 
+                    podemos seguir ofreciendo nuestros programas sin costo alguno.
+                </p>
+            </section>
+
+            <footer className={styles.footer}>
+                <p>Si deseas apoyar nuestro club de ciencias o necesitas más información, por favor contáctanos.</p>
+                <button className={styles.ctaButton}>
+                  <ReactWhatsapp
+                    number="549-2920-35-4587"
+                    message="Hola! Quisiera mas info sobre la Feria de Ciencias!"
+                    element="div"
+                    
+                  >
+                    Contactanos!
+                  </ReactWhatsapp>
+                </button>
+            </footer>
+        </div>
   )
 }
