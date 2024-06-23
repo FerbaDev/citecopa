@@ -63,4 +63,10 @@ export const menuItems = [
     title: "Comunidad",
     Icon: Diversity3Icon,
   },
+  {
+    id: "nosotros",
+    path: "/nosotros",
+    title: "Nosotros",
+    Icon: GroupsIcon,
+  },
 ];

@@ -9,6 +9,7 @@ import { LigaRobotica } from "../components/pages/liga/LigaRobotica";
 import { FeriaCiencias } from "../components/pages/feria/FeriaCiencias";
 import { ProyectosComunitarios } from "../components/pages/proyectos/ProyectosComunitarios";
 import Formulario from "../components/pages/formulario/Formulario";
+import { Nosotros } from "../components/pages/nosotros/Nosotros";
 
 export const routes = [
   {
@@ -65,5 +66,10 @@ export const routes = [
     id: "formulario",
     path: "/formulario",
     Element: Formulario,
+  },
+  {
+    id: "nosotros",
+    path: "/nosotros",
+    Element: Nosotros,
   },
 ];
