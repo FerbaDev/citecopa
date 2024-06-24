@@ -44,6 +44,11 @@ export const Home = () => {
             </Link>
           </div>
           <div>
+            <Link to={"/blog"} className="btn">
+              Blog
+            </Link>
+          </div>
+          <div>
             <Link to={"/formulario"} className="btn">
               Anotarme
             </Link>

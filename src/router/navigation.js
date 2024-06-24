@@ -7,6 +7,7 @@ import MemoryIcon from '@mui/icons-material/Memory';
 import SmartToyIcon from '@mui/icons-material/SmartToy';
 import FestivalIcon from '@mui/icons-material/Festival';
 import Diversity2Icon from '@mui/icons-material/Diversity2';
+import NewspaperIcon from '@mui/icons-material/Newspaper';
 
 export const menuItems = [
   {
@@ -68,5 +69,11 @@ export const menuItems = [
     path: "/nosotros",
     title: "Nosotros",
     Icon: GroupsIcon,
+  },
+  {
+    id: "blog",
+    path: "/blog",
+    title: "Blog",
+    Icon: NewspaperIcon,
   },
 ];

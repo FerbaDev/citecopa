@@ -10,6 +10,7 @@ import { FeriaCiencias } from "../components/pages/feria/FeriaCiencias";
 import { ProyectosComunitarios } from "../components/pages/proyectos/ProyectosComunitarios";
 import Formulario from "../components/pages/formulario/Formulario";
 import { Nosotros } from "../components/pages/nosotros/Nosotros";
+import { Blog } from "../components/pages/blog/Blog";
 
 export const routes = [
   {
@@ -71,5 +72,10 @@ export const routes = [
     id: "nosotros",
     path: "/nosotros",
     Element: Nosotros,
+  },
+  {
+    id: "blog",
+    path: "/blog",
+    Element: Blog,
   },
 ];

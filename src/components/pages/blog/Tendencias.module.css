@@ -1,0 +1,10 @@
+.section {
+    margin-bottom: 40px;
+}
+
+.title {
+    font-size: 2em;
+    color: var(--bg-violeta);
+    margin-bottom: 10px;
+    font-family: var(--font-orbitron);
+}

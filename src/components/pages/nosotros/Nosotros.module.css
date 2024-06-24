@@ -41,8 +41,10 @@
 
 .team {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
     margin-bottom: 20px;
 }
 
@@ -65,4 +67,18 @@
     width: 150px;
     height: auto;
     margin: 10px;
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+.team {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 3em;
+}
 }
