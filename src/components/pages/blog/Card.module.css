@@ -6,6 +6,7 @@
     margin: 10px;
     cursor: pointer;
     transition: transform 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .card:hover {
@@ -20,4 +21,10 @@
 .card p {
     font-size: 1.1em;
     color: #777;
+}
+.image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
 }
