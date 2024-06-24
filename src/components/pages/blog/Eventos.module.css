@@ -8,3 +8,16 @@
     margin-bottom: 10px;
     font-family: var(--font-orbitron);
 }
+.btn {
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: 1px solid #ff3ea5;
+    font-size: 1em;
+    color: #000;
+    display: inline-block;
+    margin-block: 20px;
+}
+.btn:hover {
+    background-color: #8c2dea;
+    scale: 1.05;
+}
