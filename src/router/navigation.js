@@ -11,6 +11,7 @@ import NewspaperIcon from '@mui/icons-material/Newspaper';
 import PsychologyAltIcon from '@mui/icons-material/PsychologyAlt';
 import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
 import VolunteerActivismIcon from '@mui/icons-material/VolunteerActivism';
+import ConnectWithoutContactIcon from '@mui/icons-material/ConnectWithoutContact';
 
 export const menuItems = [
   {
@@ -96,5 +97,11 @@ export const menuItems = [
     path: "/colabora",
     title: "Colabora",
     Icon: VolunteerActivismIcon,
+  },
+  {
+    id: "contacto",
+    path: "/contacto",
+    title: "Contacto",
+    Icon: ConnectWithoutContactIcon,
   },
 ];

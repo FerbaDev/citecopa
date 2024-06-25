@@ -14,6 +14,7 @@ import { Blog } from "../components/pages/blog/Blog";
 import Soluciones from "../components/pages/soluciones/Soluciones";
 import Fomento from "../components/pages/fomento/Fomento";
 import Colabora from "../components/pages/colabora/Colabora";
+import Contacto from "../components/pages/contacto/Contacto";
 
 export const routes = [
   {
@@ -95,5 +96,10 @@ export const routes = [
     id: "colabora",
     path: "/colabora",
     Element: Colabora,
+  },
+  {
+    id: "contacto",
+    path: "/contacto",
+    Element: Contacto,
   },
 ];

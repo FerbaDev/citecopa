@@ -1,0 +1,21 @@
+.section {
+    margin-bottom: 40px;
+}
+.socialLinks {
+    list-style: none;
+    padding: 0;
+}
+
+.socialLinks li {
+    margin-bottom: 10px;
+}
+
+.socialLinks a {
+    font-size: 1.1em;
+    color: var(--bg-violeta);
+    text-decoration: none;
+}
+
+.socialLinks a:hover {
+    text-decoration: underline;
+}
