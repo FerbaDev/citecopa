@@ -10,6 +10,7 @@ import { Home } from "../components/pages/home/Home";
 import Register from "../components/pages/register/Register";
 import { Miembros } from "../components/pages/miembros/Miembros";
 import Contactos from "../components/pages/dashboard/Contactos";
+import FormularioContactoList from "../components/pages/dashboard/FormularioContactoList";
 
 
 const AppRouter = () => {
@@ -37,6 +38,7 @@ const AppRouter = () => {
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/miembros" element={<Miembros />} />
           <Route path="/contactos" element={<Contactos />} />
+          <Route path="/formulario-contacto" element={<FormularioContactoList />} />
         </Route>
       </Route>
       {/* Login */}

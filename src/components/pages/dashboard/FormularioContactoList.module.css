@@ -1,0 +1,40 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.submissionList {
+    list-style: none;
+    padding: 0;
+}
+
+.submissionItem {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    padding: 5px 10px;
+    font-size: 1em;
+    color: #fff;
+    background-color: var(--bg-violeta);
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: blueviolet;
+}
