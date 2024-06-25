@@ -11,6 +11,7 @@ import { ProyectosComunitarios } from "../components/pages/proyectos/ProyectosCo
 import Formulario from "../components/pages/formulario/Formulario";
 import { Nosotros } from "../components/pages/nosotros/Nosotros";
 import { Blog } from "../components/pages/blog/Blog";
+import Soluciones from "../components/pages/soluciones/Soluciones";
 
 export const routes = [
   {
@@ -77,5 +78,10 @@ export const routes = [
     id: "blog",
     path: "/blog",
     Element: Blog,
+  },
+  {
+    id: "soluciones",
+    path: "/soluciones",
+    Element: Soluciones,
   },
 ];

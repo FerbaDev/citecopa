@@ -8,6 +8,7 @@ import SmartToyIcon from '@mui/icons-material/SmartToy';
 import FestivalIcon from '@mui/icons-material/Festival';
 import Diversity2Icon from '@mui/icons-material/Diversity2';
 import NewspaperIcon from '@mui/icons-material/Newspaper';
+import PsychologyAltIcon from '@mui/icons-material/PsychologyAlt';
 
 export const menuItems = [
   {
@@ -75,5 +76,11 @@ export const menuItems = [
     path: "/blog",
     title: "Blog",
     Icon: NewspaperIcon,
+  },
+  {
+    id: "soluciones",
+    path: "/soluciones",
+    title: "Soluciones",
+    Icon: PsychologyAltIcon,
   },
 ];
