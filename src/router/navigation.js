@@ -10,6 +10,7 @@ import Diversity2Icon from '@mui/icons-material/Diversity2';
 import NewspaperIcon from '@mui/icons-material/Newspaper';
 import PsychologyAltIcon from '@mui/icons-material/PsychologyAlt';
 import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
+import VolunteerActivismIcon from '@mui/icons-material/VolunteerActivism';
 
 export const menuItems = [
   {
@@ -89,5 +90,11 @@ export const menuItems = [
     path: "/fomento",
     title: "Fomento",
     Icon: RocketLaunchIcon,
+  },
+  {
+    id: "colabora",
+    path: "/colabora",
+    title: "Colabora",
+    Icon: VolunteerActivismIcon,
   },
 ];

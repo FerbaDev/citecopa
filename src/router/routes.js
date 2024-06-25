@@ -13,6 +13,7 @@ import { Nosotros } from "../components/pages/nosotros/Nosotros";
 import { Blog } from "../components/pages/blog/Blog";
 import Soluciones from "../components/pages/soluciones/Soluciones";
 import Fomento from "../components/pages/fomento/Fomento";
+import Colabora from "../components/pages/colabora/Colabora";
 
 export const routes = [
   {
@@ -89,5 +90,10 @@ export const routes = [
     id: "fomento",
     path: "/fomento",
     Element: Fomento,
+  },
+  {
+    id: "colabora",
+    path: "/colabora",
+    Element: Colabora,
   },
 ];
