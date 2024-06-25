@@ -12,6 +12,7 @@ import Formulario from "../components/pages/formulario/Formulario";
 import { Nosotros } from "../components/pages/nosotros/Nosotros";
 import { Blog } from "../components/pages/blog/Blog";
 import Soluciones from "../components/pages/soluciones/Soluciones";
+import Fomento from "../components/pages/fomento/Fomento";
 
 export const routes = [
   {
@@ -83,5 +84,10 @@ export const routes = [
     id: "soluciones",
     path: "/soluciones",
     Element: Soluciones,
+  },
+  {
+    id: "fomento",
+    path: "/fomento",
+    Element: Fomento,
   },
 ];

@@ -9,6 +9,7 @@ import FestivalIcon from '@mui/icons-material/Festival';
 import Diversity2Icon from '@mui/icons-material/Diversity2';
 import NewspaperIcon from '@mui/icons-material/Newspaper';
 import PsychologyAltIcon from '@mui/icons-material/PsychologyAlt';
+import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
 
 export const menuItems = [
   {
@@ -82,5 +83,11 @@ export const menuItems = [
     path: "/soluciones",
     title: "Soluciones",
     Icon: PsychologyAltIcon,
+  },
+  {
+    id: "fomento",
+    path: "/fomento",
+    title: "Fomento",
+    Icon: RocketLaunchIcon,
   },
 ];
