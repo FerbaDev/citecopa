@@ -77,7 +77,7 @@
 // };
 
 import { Box, Typography, Container, Grid, Link } from '@mui/material';
-import { Instagram, Facebook, Twitter, Google, LinkedIn, GitHub } from '@mui/icons-material';
+import { Instagram, Facebook, Google} from '@mui/icons-material';
 import ReactWhatsapp from 'react-whatsapp';
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 
@@ -88,26 +88,17 @@ export const Footer = () => {
         <Container maxWidth="lg">
           <Box sx={{ display: 'flex', justifyContent: 'space-between' }}>
             <Typography variant="body1">
-              Get connected with us on social networks:
+              Encontranos en las redes sociales
             </Typography>
             <Box>
               <Link href="#" color="inherit" sx={{ mx: 1 }}>
                 <Facebook />
               </Link>
               <Link href="#" color="inherit" sx={{ mx: 1 }}>
-                <Twitter />
-              </Link>
-              <Link href="#" color="inherit" sx={{ mx: 1 }}>
                 <Google />
               </Link>
               <Link href="https://www.instagram.com/linkclubdecienciasviedma/" color="inherit" sx={{ mx: 1 }}>
                 <Instagram />
-              </Link>
-              <Link href="#" color="inherit" sx={{ mx: 1 }}>
-                <LinkedIn />
-              </Link>
-              <Link href="#" color="inherit" sx={{ mx: 1 }}>
-                <GitHub />
               </Link>
             </Box>
           </Box>
@@ -126,48 +117,47 @@ export const Footer = () => {
           </Grid>
           <Grid item xs={12} md={2}>
             <Typography variant="h6" sx={{ fontWeight: 'bold' }}>
-              Products
+              Navegación
             </Typography>
             <hr style={{ width: '60px', backgroundColor: '#7c4dff', height: '2px', margin: '10px 0' }} />
-            <Link href="#!" color="inherit" sx={{ display: 'block', my: 1 }}>MDBootstrap</Link>
-            <Link href="#!" color="inherit" sx={{ display: 'block', my: 1 }}>MDWordPress</Link>
-            <Link href="#!" color="inherit" sx={{ display: 'block', my: 1 }}>BrandFlow</Link>
-            <Link href="#!" color="inherit" sx={{ display: 'block', my: 1 }}>Bootstrap Angular</Link>
+            <Link href="#!" color="inherit" sx={{ display: 'block', my: 1 }}>Club de Ciencias</Link>
+            <Link href="#!" color="inherit" sx={{ display: 'block', my: 1 }}>Laboratorio</Link>
+            <Link href="#!" color="inherit" sx={{ display: 'block', my: 1 }}>Taller</Link>
+            <Link href="#!" color="inherit" sx={{ display: 'block', my: 1 }}>Liga robótica</Link>
           </Grid>
           <Grid item xs={12} md={2}>
             <Typography variant="h6" sx={{ fontWeight: 'bold' }}>
-              Redes Sociales
+              Links de Interés
             </Typography>
             <hr style={{ width: '60px', backgroundColor: '#7c4dff', height: '2px', margin: '10px 0' }} />
-            <ReactWhatsapp style={{display: "flex", flexDirection: "row", alignItems: "center"}}
-              number="549-2920-35-4587"
-              message="Hola! Quisiera mas info sobre Citecopa!"
-              element="div"
-              className="cursor-manito"
-            >
-              <WhatsAppIcon /> Whatsapp 
-            </ReactWhatsapp>
-            <Link href="#!" color="inherit" sx={{ display: 'block', my: 1 }}>Become an Affiliate</Link>
-            <Link href="#!" color="inherit" sx={{ display: 'block', my: 1 }}>Shipping Rates</Link>
-            <Link href="#!" color="inherit" sx={{ display: 'block', my: 1 }}>Help</Link>
+            <Link href="#!" color="inherit" sx={{ display: 'block', my: 1 }}>Unite al club</Link>
+            <Link href="#!" color="inherit" sx={{ display: 'block', my: 1 }}>Formulario de contacto</Link>
+            <Link href="#!" color="inherit" sx={{ display: 'block', my: 1 }}>Preguntas frecuentes</Link>
           </Grid>
           <Grid item xs={12} md={4}>
             <Typography variant="h6" sx={{ fontWeight: 'bold' }}>
-              Contact
+              Contacto
             </Typography>
             <hr style={{ width: '60px', backgroundColor: '#7c4dff', height: '2px', margin: '10px 0' }} />
-            <Typography variant="body2"><i className="fas fa-home mr-3"></i> New York, NY 10012, US</Typography>
+            <Typography variant="body2"><i className="fas fa-home mr-3"></i> Dirección: Italia 401 ¨b¨.</Typography>
             <Typography variant="body2"><i className="fas fa-envelope mr-3"></i> info@example.com</Typography>
-            <Typography variant="body2"><i className="fas fa-phone mr-3"></i> + 01 234 567 88</Typography>
-            <Typography variant="body2"><i className="fas fa-print mr-3"></i> + 01 234 567 89</Typography>
+            <ReactWhatsapp
+              number="549-2920-35-4587"
+              message="Hola! Quisiera mas info sobre Citecopa!"
+              element="div"
+              style={{display: "flex", flexDirection: "row", alignItems: "center", gap: "0.3em", fontSize: "14px"}}
+            >
+              <WhatsAppIcon />  <p>Whatsapp</p>
+            </ReactWhatsapp>
+            <Typography variant="body2"><i className="fas fa-print mr-3"></i>2920-35-4587</Typography>
           </Grid>
         </Grid>
       </Container>
       <Box sx={{ backgroundColor: 'rgba(0, 0, 0, 0.2)', py: 2 }}>
         <Container maxWidth="lg">
           <Typography variant="body2" align="center">
-            © 2020 Copyright: 
-            <Link href="https://mdbootstrap.com/" color="inherit"> MDBootstrap.com</Link>
+            © 2024 Copyright: 
+            <Link href="https://mdbootstrap.com/" color="inherit"> Fundación Citecopa</Link>
           </Typography>
         </Container>
       </Box>
