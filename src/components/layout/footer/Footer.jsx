@@ -83,11 +83,11 @@ import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 
 export const Footer = () => {
   return (
-    <Box sx={{ backgroundColor: '#1c2331', color: 'whitesmoke' }}>
+    <Box sx={{ backgroundColor: '#1c2331', color: 'whitesmoke', fontFamily: "var(--font-spartan)" }}>
       <Box sx={{ backgroundColor: '#6351ce', py: 2 }}>
         <Container maxWidth="lg">
           <Box sx={{ display: 'flex', justifyContent: 'space-between' }}>
-            <Typography variant="body1">
+            <Typography variant="body1" sx={{ fontFamily: "var(--font-spartan)", fontSize: "1.2em" }}>
               Encontranos en las redes sociales
             </Typography>
             <Box>
@@ -107,16 +107,16 @@ export const Footer = () => {
       <Container maxWidth="lg" sx={{ py: 5 }}>
         <Grid container spacing={4}>
           <Grid item xs={12} md={4}>
-            <Typography variant="h6" sx={{ fontWeight: 'bold' }}>
+            <Typography variant="h6" sx={{ fontWeight: 'bold', fontFamily: "var(--font-spartan)", fontSize: "1.5em" }}>
               Fundación Citecopa
             </Typography>
             <hr style={{ width: '60px', backgroundColor: '#7c4dff', height: '2px', margin: '10px 0' }} />
-            <Typography variant="body2">
+            <Typography variant="body1" sx={{fontFamily: "var(--font-spartan)", }}>
               Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             </Typography>
           </Grid>
           <Grid item xs={12} md={2}>
-            <Typography variant="h6" sx={{ fontWeight: 'bold' }}>
+            <Typography variant="h6" sx={{ fontWeight: 'bold', fontFamily: "var(--font-spartan)", fontSize: "1.5em" }}>
               Navegación
             </Typography>
             <hr style={{ width: '60px', backgroundColor: '#7c4dff', height: '2px', margin: '10px 0' }} />
@@ -126,7 +126,7 @@ export const Footer = () => {
             <Link href="#!" color="inherit" sx={{ display: 'block', my: 1 }}>Liga robótica</Link>
           </Grid>
           <Grid item xs={12} md={2}>
-            <Typography variant="h6" sx={{ fontWeight: 'bold' }}>
+            <Typography variant="h6" sx={{ fontWeight: 'bold', fontFamily: "var(--font-spartan)", fontSize: "1.5em" }}>
               Links de Interés
             </Typography>
             <hr style={{ width: '60px', backgroundColor: '#7c4dff', height: '2px', margin: '10px 0' }} />
@@ -135,21 +135,21 @@ export const Footer = () => {
             <Link href="#!" color="inherit" sx={{ display: 'block', my: 1 }}>Preguntas frecuentes</Link>
           </Grid>
           <Grid item xs={12} md={4}>
-            <Typography variant="h6" sx={{ fontWeight: 'bold' }}>
+            <Typography variant="h6" sx={{ fontWeight: 'bold', fontFamily: "var(--font-spartan)", fontSize: "1.5em" }}>
               Contacto
             </Typography>
             <hr style={{ width: '60px', backgroundColor: '#7c4dff', height: '2px', margin: '10px 0' }} />
-            <Typography variant="body2"><i className="fas fa-home mr-3"></i> Dirección: Italia 401 ¨b¨.</Typography>
-            <Typography variant="body2"><i className="fas fa-envelope mr-3"></i> info@example.com</Typography>
+            <Typography variant="body1" sx={{ fontFamily: "var(--font-spartan)", fontSize: "1.2em" }}><i className="fas fa-home mr-3"></i> Dirección: Italia 401 ¨b¨.</Typography>
+            <Typography variant="body1" sx={{ fontFamily: "var(--font-spartan)", fontSize: "1.2em" }}><i className="fas fa-envelope mr-3"></i> info@example.com</Typography>
             <ReactWhatsapp
               number="549-2920-35-4587"
               message="Hola! Quisiera mas info sobre Citecopa!"
               element="div"
               style={{display: "flex", flexDirection: "row", alignItems: "center", gap: "0.3em", fontSize: "14px"}}
             >
-              <WhatsAppIcon />  <p>Whatsapp</p>
+              <WhatsAppIcon />  <p style={{fontFamily: "var(--font-spartan)", fontSize: "1.2em"}}>Whatsapp</p>
             </ReactWhatsapp>
-            <Typography variant="body2"><i className="fas fa-print mr-3"></i>2920-35-4587</Typography>
+            <Typography variant="body1"><i className="fas fa-print mr-3"></i>2920-35-4587</Typography>
           </Grid>
         </Grid>
       </Container>
@@ -157,7 +157,7 @@ export const Footer = () => {
         <Container maxWidth="lg">
           <Typography variant="body2" align="center">
             © 2024 Copyright: 
-            <Link href="https://mdbootstrap.com/" color="inherit"> Fundación Citecopa</Link>
+            <Link href="#" color="inherit"> Fundación Citecopa</Link>
           </Typography>
         </Container>
       </Box>
