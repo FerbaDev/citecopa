@@ -83,7 +83,7 @@ import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 
 export const Footer = () => {
   return (
-    <Box sx={{ backgroundColor: '#1c2331', color: 'whitesmoke', mt: 5 }}>
+    <Box sx={{ backgroundColor: '#1c2331', color: 'whitesmoke' }}>
       <Box sx={{ backgroundColor: '#6351ce', py: 2 }}>
         <Container maxWidth="lg">
           <Box sx={{ display: 'flex', justifyContent: 'space-between' }}>
