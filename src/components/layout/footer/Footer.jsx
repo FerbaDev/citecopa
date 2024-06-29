@@ -9,7 +9,7 @@ const Footer = () => {
     <Box sx={{ backgroundColor: '#1c2331', color: 'whitesmoke', fontFamily: "var(--font-spartan)" }}>
       <Box sx={{ backgroundColor: '#6351ce', py: 2 }}>
         <Container maxWidth="lg">
-          <Box sx={{ display: 'flex', justifyContent: 'space-between' }}>
+          <Box sx={{ display: 'flex', justifyContent: 'space-between', flexDirection: {xs: "column", sm: "row"} }}>
             <Typography variant="body1" sx={{ fontFamily: "var(--font-spartan)", fontSize: "1.2em" }}>
               Encontranos en las redes sociales
             </Typography>
