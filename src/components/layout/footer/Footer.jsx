@@ -4,7 +4,7 @@ import ReactWhatsapp from 'react-whatsapp';
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import { Link } from 'react-router-dom';
 
-const Footer = () => {
+export const Footer = () => {
   return (
     <Box sx={{ backgroundColor: '#1c2331', color: 'whitesmoke', fontFamily: "var(--font-spartan)" }}>
       <Box sx={{ backgroundColor: '#6351ce', py: 2 }}>
@@ -88,4 +88,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+

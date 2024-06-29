@@ -5,12 +5,14 @@
     border-radius: 8px;
     margin: 10px;
     cursor: pointer;
-    transition: transform 0.2s;
+    will-change: transform filter;
+    transition: transform filter 0.2s;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .card:hover {
     transform: scale(1.05);
+    filter: drop-shadow(0 0 2em #646cffaa);
 }
 
 .card h3 {
