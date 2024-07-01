@@ -8,7 +8,7 @@ export const Club = () => {
     <>
       <div className="club-container">
         <div className="club-header">
-          <h1>Club de ciencias</h1>
+          <h1 className="neon-text-white">Club de ciencias</h1>
           <div className="club-img-header">
             <img src="/man-scientist.svg" alt="" />
             <img src="/scientist.svg" alt="" />

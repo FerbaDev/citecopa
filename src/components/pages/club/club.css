@@ -5,14 +5,12 @@
 }
 
 .club-container {
-    background-color: #9ADFF8;
+    background-color: var(--bg-violeta);
     width: 100%;
     min-height: 90vh;
     padding: 20px;
 }
-.club-container h1 {
-    color: #fff42c;
-}
+
 .club-header {
     padding-block: 20px;
 }
