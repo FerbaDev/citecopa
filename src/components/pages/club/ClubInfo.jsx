@@ -28,14 +28,14 @@ const ClubInfo = () => {
     return (
         <div className={styles.container}>
             <header className={styles.header}>
-                <h1>Club de Ciencias</h1>
-                <p>Únete a nuestro Club de Ciencias y descubre el fascinante mundo de la ciencia y la tecnología.</p>
+                <h1 className='neon-text-white'>Club de Ciencias</h1>
+                <p className='neon-text-pink'>Únete a nuestro Club de Ciencias y descubre el fascinante mundo de la ciencia y la tecnología.</p>
                 <Link to={"/formulario"} className={styles.ctaButton}>Unirme Ahora</Link>
             </header>
 
             <section className={styles.section} id='explora-ciencias'>
                 <div className={styles.sectionInfo}>
-                    <h2>Explora Ciencias</h2>
+                    <h2 className='neon-text-pink'>Explora Ciencias</h2>
                     <p>
                         Podrás aprender sobre <strong>ciencias naturales, conservación de especies, 
                         biodiversidad digital, biotecnologías, astronomía y ciencias exactas (física, química, matemáticas)</strong>. 
@@ -48,7 +48,7 @@ const ClubInfo = () => {
 
             <section className={styles.section2} id='creatilab'>
                 <div className={styles.sectionInfo}>
-                    <h2>CreatiLab</h2>
+                    <h2 className='neon-text-pink'>CreatiLab</h2>
                     <p>
                         En el <strong>CreatiLab</strong>, podrás experimentar con <strong>inteligencia artificial, realidad virtual y aumentada, 
                         gaming y experimentos de ciencia viva</strong>. Construye <strong>artilugios tecnológicos</strong> y participa en 
@@ -60,7 +60,7 @@ const ClubInfo = () => {
 
             <section className={styles.section} id='tecnoarte'>
                 <div className={styles.sectionInfo}>
-                    <h2>Innova y Tecno Arte</h2>
+                    <h2 className='neon-text-pink'>Innova y Tecno Arte</h2>
                     <p>
                         En <strong>Innova y Tecno Arte</strong>, podrás explorar el mundo de la <strong>música e iluminación</strong>, 
                         y el <strong>diseño de artículos de moda</strong>. Descubre el arte del <strong>upcycling</strong> y participa en 
@@ -72,7 +72,7 @@ const ClubInfo = () => {
 
             <section className={styles.section2} id='red-de-clubes'>
                 <div className={styles.sectionInfo}>
-                    <h2>Red de Clubes</h2>
+                    <h2 className='neon-text-pink'>Red de Clubes</h2>
                     <p>
                         Con la <strong>Red de Clubes</strong>, te ayudamos a <strong>armar tu club en la escuela o en tu barrio</strong>. 
                         Nosotros te apoyamos para que puedas crear tu propio espacio de ciencia y tecnología donde quiera que estés.

@@ -45,12 +45,7 @@ a:hover {
   font-size: 32px;
 }
 
-.instagram {
-  z-index: 10;
-  color: #cc2366;
-  background-color: #f0e7eb89;
-  border-radius: 16px;
-}
+
 .whatsapp {
   padding: 10px;
   background-color: #25d366;

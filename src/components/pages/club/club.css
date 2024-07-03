@@ -87,20 +87,7 @@
         width: 100%;
         justify-content: flex-end;
     }
-    .club-card {
-        padding: 20px;
-        background-color: #fff;
-        font-family: var(--font-spartan);
-        color: violet;
-        font-size: 1.2em;
-        width: 200px;
-        height: 200px;
-        border-radius: 8px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-    }
+
 
 
 
