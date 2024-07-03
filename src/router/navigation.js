@@ -1,5 +1,6 @@
+import LightbulbIcon from '@mui/icons-material/Lightbulb';
 import HomeIcon from "@mui/icons-material/Home";
-import BiotechIcon from "@mui/icons-material/Biotech";
+import KeyboardIcon from '@mui/icons-material/Keyboard';
 import GroupsIcon from "@mui/icons-material/Groups";
 import Diversity3Icon from "@mui/icons-material/Diversity3";
 import ConstructionIcon from '@mui/icons-material/Construction';
@@ -15,10 +16,10 @@ import ConnectWithoutContactIcon from '@mui/icons-material/ConnectWithoutContact
 
 export const menuItems = [
   {
-    id: "home",
+    id: "citecopa",
     path: "/",
-    title: "Home",
-    Icon: HomeIcon,
+    title: "Citecopa",
+    Icon: LightbulbIcon,
   },
   {
     id: "inicio",
@@ -36,7 +37,7 @@ export const menuItems = [
     id: "laboratorio",
     path: "/laboratorio",
     title: "Laboratorio",
-    Icon: BiotechIcon,
+    Icon: KeyboardIcon,
   },
   {
     id: "taller",
