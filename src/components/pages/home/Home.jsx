@@ -24,20 +24,25 @@ export const Home = () => {
           }}
         >
           <div>
+            <Link to={"/inicio"} className="btn">
+              Inicio
+            </Link>
+          </div>
+          <div>
             <Link to={"/club"} className="btn">
               Club de ciencias
             </Link>
           </div>
-          <div>
+          {/* <div>
             <Link to={"/laboratorio"} className="btn">
               Laboratorio
             </Link>
           </div>
           <div>
-            <Link to={"/laboratorio#taller"} className="btn">
+            <Link to={"/inicio#taller"} className="btn">
               Taller
             </Link>
-          </div>
+          </div> */}
           <div>
             <Link to={"/comunidad"} className="btn">
               Comunidad

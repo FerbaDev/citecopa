@@ -21,6 +21,12 @@ export const menuItems = [
     Icon: HomeIcon,
   },
   {
+    id: "inicio",
+    path: "/inicio",
+    title: "Inicio",
+    Icon: HomeIcon,
+  },
+  {
     id: "club",
     path: "/club",
     title: "Club",

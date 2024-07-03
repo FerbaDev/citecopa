@@ -2,7 +2,6 @@ import { Comunidad } from "../components/pages/comunidad/Comunidad";
 import { Home } from "../components/pages/home/Home";
 import { Club } from "../components/pages/club/Club";
 import { Laboratorio } from "../components/pages/laboratorio/Laboratorio";
-import { LaboratorioDeProyectos } from "../components/pages/laboratorio/LaboratorioDeProyectos";
 import Taller from "../components/pages/taller/Taller";
 import Comarca from "../components/pages/comarca/Comarca";
 import { LigaRobotica } from "../components/pages/liga/LigaRobotica";
@@ -15,12 +14,18 @@ import Soluciones from "../components/pages/soluciones/Soluciones";
 import Fomento from "../components/pages/fomento/Fomento";
 import Colabora from "../components/pages/colabora/Colabora";
 import Contacto from "../components/pages/contacto/Contacto";
+import { Inicio } from "../components/pages/inicio/Inicio";
 
 export const routes = [
   {
     id: "home",
     path: "/",
     Element: Home,
+  },
+  {
+    id: "inicio",
+    path: "/inicio",
+    Element: Inicio,
   },
   {
     id: "club",
@@ -36,11 +41,6 @@ export const routes = [
     id: "comunidad",
     path: "/comunidad",
     Element: Comunidad,
-  },
-  {
-    id: "laboratorioProyectos",
-    path: "/laboratorio-de-proyectos-digitales",
-    Element: LaboratorioDeProyectos,
   },
   {
     id: "taller",
