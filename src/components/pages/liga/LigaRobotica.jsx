@@ -1,5 +1,4 @@
 import { Link, useLocation } from "react-router-dom"
-import { Galeria } from "./Galeria"
 import styles from "./Liga.module.css"
 import ReactWhatsapp from "react-whatsapp"
 import ScrollToTop from "../../../router/ScrollToTop"
@@ -80,7 +79,6 @@ export const LigaRobotica = () => {
         </div>
           <img src="fechas.webp" alt="Fechas y Encuentros" className={styles.image}/>
       </section>
-      <Galeria />
 </div>
   )
 }

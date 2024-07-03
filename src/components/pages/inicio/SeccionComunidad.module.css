@@ -1,0 +1,82 @@
+/* SeccionComunidad.module.css */
+
+.comunidadContainer {
+    padding: 20px;
+    text-align: center;
+    background-color: var(--bg-violeta);
+  }
+  
+  .comunidadHeader {
+    margin-bottom: 50px;
+    font-family: var(--font-orbitron);
+  }
+  
+  .comunidadCardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .comunidadCard {
+    font-family: var(--font-spartan);
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    background: rgba(255, 255, 255, .3);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+  }
+  
+  .comunidadCard:hover {
+    transform: scale(1.05);
+    /* box-shadow: 10px 10px 20px #bababa, -10px -10px 20px #ffffff; */
+  }
+  
+  /* .comunidadCard1 {
+    background-color: #ff4081;
+  }
+  
+  .comunidadCard2 {
+    background-color: #e040fb;
+  }
+  
+  .comunidadCard3 {
+    background-color: #7c4dff;
+  }
+  
+  .comunidadCard4 {
+    background-color: #536dfe;
+  }
+  
+  .comunidadCard5 {
+    background-color: #448aff;
+  } */
+  
+  .glow-on-hover2 {
+    color: #fff;
+    background-color: #ff4081;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .glow-on-hover2:hover {
+    background-color: #e040fb;
+    box-shadow: 0 0 10px #e040fb, 0 0 20px #e040fb, 0 0 30px #e040fb;
+  }
+  
+  .neon-text-white {
+    color: #fff;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff4081, 0 0 70px #ff4081, 0 0 80px #ff4081, 0 0 100px #ff4081, 0 0 150px #ff4081;
+  }
+  
+  .neon-text-pink {
+    color: #ff4081;
+    text-shadow: 0 0 10px #ff4081, 0 0 20px #ff4081, 0 0 30px #ff4081, 0 0 40px #ff4081, 0 0 70px #ff4081, 0 0 80px #ff4081, 0 0 100px #ff4081, 0 0 150px #ff4081;
+  }
+  

@@ -1,7 +1,31 @@
 import ReactWhatsapp from 'react-whatsapp';
 import styles from './Comunidad.module.css';
+import { useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
 
 export const Comunidad = () => {
+
+    const location = useLocation();
+
+    useEffect(() => {
+        if (location.hash) {
+          const element = document.getElementById(location.hash.slice(1));
+          if (element) {
+            const offset = 100; // Ajusta este valor según tus necesidades
+            const bodyRect = document.body.getBoundingClientRect().top;
+            const elementRect = element.getBoundingClientRect().top;
+            const elementPosition = elementRect - bodyRect;
+            const offsetPosition = elementPosition - offset;
+    
+            window.scrollTo({
+              top: offsetPosition,
+              behavior: 'smooth',
+            });
+          }
+        }
+      }, [location]); 
+
+
   return (
     <div className={styles.container}>
             <header className={styles.header}>
@@ -9,7 +33,7 @@ export const Comunidad = () => {
                 <p>Únete a nuestra comunidad y ayúdanos a inspirar a la próxima generación de científicos y tecnólogos en Viedma, Río Negro, Argentina.</p>
             </header>
 
-            <section className={styles.section}>
+            <section className={styles.section} id='colaboradores'>
                 <h2>Colaboradores</h2>
                 <p>
                     Nuestro club de ciencias se enorgullece de trabajar con colaboradores comprometidos que aportan su experiencia y recursos 
@@ -17,7 +41,7 @@ export const Comunidad = () => {
                 </p>
             </section>
 
-            <section className={styles.section}>
+            <section className={styles.section} id='voluntarios'>
                 <h2>Voluntarios</h2>
                 <p>
                     Los voluntarios son el corazón de nuestra comunidad. Desde la organización de eventos hasta la tutoría de nuestros jóvenes científicos, 
@@ -25,7 +49,7 @@ export const Comunidad = () => {
                 </p>
             </section>
 
-            <section className={styles.section}>
+            <section className={styles.section} id='redes'>
                 <h2>Redes de Apoyo</h2>
                 <p>
                     Formamos parte de diversas redes de apoyo que nos ayudan a expandir nuestro impacto. Estas redes incluyen otras organizaciones sin fines de lucro, 
@@ -33,7 +57,7 @@ export const Comunidad = () => {
                 </p>
             </section>
 
-            <section className={styles.section}>
+            <section className={styles.section} id='participacion'>
                 <h2>Participación Ciudadana</h2>
                 <p>
                     Fomentamos la participación ciudadana a través de proyectos y actividades que involucran a la comunidad local. 
@@ -41,7 +65,7 @@ export const Comunidad = () => {
                 </p>
             </section>
 
-            <section className={styles.section}>
+            <section className={styles.section} id='donantes'>
                 <h2>Donantes y Reconocimientos</h2>
                 <p>
                     Agradecemos profundamente a nuestros donantes, cuyo apoyo financiero y donaciones en especie hacen posible nuestro trabajo. 
@@ -55,7 +79,7 @@ export const Comunidad = () => {
                 <button className={styles.ctaButton}>
                   <ReactWhatsapp
                     number="549-2920-35-4587"
-                    message="Hola! Quisiera mas info sobre la Feria de Ciencias!"
+                    message="Hola! Quisiera mas info sobre la Comunidad del club de ciencias!"
                     element="div"
                     
                   >
