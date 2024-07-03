@@ -1,4 +1,3 @@
-import { Box } from "@mui/material";
 import "../../../index.css";
 import "./home.css";
 import { Link } from "react-router-dom";
@@ -13,52 +12,16 @@ export const Home = () => {
         </video>
       </div>
       <div className="content">
-        <h1 className="neon-text-pink" style={{ marginBottom: "20px" }}>
-          Fundación CITECoPa
-        </h1>
-        <Box
-          sx={{
-            display: "flex",
-            gap: "1em",
-            flexDirection: { xs: "column", sm: "column", md: "row" },
-          }}
-        >
-          <div>
-            <Link to={"/inicio"} className="btn">
-              Inicio
-            </Link>
-          </div>
-          <div>
-            <Link to={"/club"} className="btn">
-              Club de ciencias
-            </Link>
-          </div>
-          {/* <div>
-            <Link to={"/laboratorio"} className="btn">
-              Laboratorio
-            </Link>
-          </div>
-          <div>
-            <Link to={"/inicio#taller"} className="btn">
-              Taller
-            </Link>
-          </div> */}
-          <div>
-            <Link to={"/comunidad"} className="btn">
-              Comunidad
-            </Link>
-          </div>
-          <div>
-            <Link to={"/blog"} className="btn">
-              Blog
-            </Link>
-          </div>
-          <div>
-            <Link to={"/formulario"} className="btn">
-              Anotarme
-            </Link>
-          </div>
-        </Box>
+        <h1 className="neon-text-pink">Fundación CITECoPa</h1>
+      </div>
+      <div className="buttons-container">
+        <Link to="/inicio" className="btn">Inicio</Link>
+        <Link to="/club" className="btn">Club de ciencias</Link>
+        {/* <Link to="/laboratorio" className="btn">Laboratorio</Link>
+        <Link to="/inicio#taller" className="btn">Taller</Link> */}
+        <Link to="/comunidad" className="btn">Comunidad</Link>
+        <Link to="/blog" className="btn">Blog</Link>
+        <Link to="/formulario" className="btn">Anotarme</Link>
       </div>
     </div>
   );
