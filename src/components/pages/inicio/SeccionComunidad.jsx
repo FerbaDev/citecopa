@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import styles from './SeccionComunidad.module.css';
-import ScrollToTop from "../../../router/ScrollToTop";
+
 
 
 const SeccionComunidad = () => {
@@ -11,7 +11,6 @@ const SeccionComunidad = () => {
 
   return (
     <div className={styles.comunidadContainer}>
-        <ScrollToTop />
         <div className={styles.comunidadHeader}>
             <h2 className="neon-text-white">Comunidad del Club de Ciencias</h2>
             <div style={{marginBottom: "50px"}}>

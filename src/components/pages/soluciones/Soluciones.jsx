@@ -9,10 +9,12 @@ import SubastasSolidarias from './SubastasSolidarias';
 import CentroReciclaje from './CentroReciclaje';
 import ProductosEcologicos from './ProductosEcologicos';
 import ProyectosAutomatizaciones from './ProyectosAutomatizaciones';
+import ScrollToTop from '../../../router/ScrollToTop';
 
 const Soluciones = () => {
     return (
         <div className={styles.container}>
+            <ScrollToTop />
             <h1 className={styles.title}>Soluciones</h1>
             <Mercado />
             <ArticulosArteIluminacion />

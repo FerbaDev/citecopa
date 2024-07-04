@@ -2,6 +2,7 @@ import ReactWhatsapp from 'react-whatsapp';
 import styles from './Comunidad.module.css';
 import { useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
+import ScrollToTop from '../../../router/ScrollToTop';
 
 export const Comunidad = () => {
 
@@ -28,6 +29,7 @@ export const Comunidad = () => {
 
   return (
     <div className={styles.container}>
+      <ScrollToTop />
             <header className={styles.header}>
                 <h1>Comunidad del Club de Ciencias</h1>
                 <p>Únete a nuestra comunidad y ayúdanos a inspirar a la próxima generación de científicos y tecnólogos en Viedma, Río Negro, Argentina.</p>

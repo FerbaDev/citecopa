@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import styles from './Nosotros.module.css';
+import ScrollToTop from '../../../router/ScrollToTop';
 
 
 
@@ -23,6 +24,7 @@ export const Nosotros = () => {
 
   return (
     <div className={styles.container}>
+        <ScrollToTop />
             <header className={styles.header}>
                 <h1>Sobre Nosotros</h1>
                 <p>Conoce más sobre nuestra fundación, nuestro equipo, nuestra misión y nuestros valores.</p>

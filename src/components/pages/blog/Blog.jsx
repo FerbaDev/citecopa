@@ -1,3 +1,4 @@
+import ScrollToTop from '../../../router/ScrollToTop';
 import { ArticulosEspecializados } from './ArticulosEspecializados';
 import { Biblioteca } from './Biblioteca';
 import styles from './Blog.module.css';
@@ -11,6 +12,7 @@ import { Tutoriales } from './Tutoriales';
 export const Blog = () => {
     return (
         <div className={styles.container}>
+            <ScrollToTop />
             <h1 className={styles.header}>Blog Citecopa</h1>
             <Eventos />
             <NotasDestacadas />

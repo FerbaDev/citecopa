@@ -4,10 +4,12 @@ import GroupIcon from '@mui/icons-material/Group';
 import ContactMailIcon from '@mui/icons-material/ContactMail';
 import ListAltIcon from '@mui/icons-material/ListAlt';
 import './styles.css'; // Importa el archivo CSS
+import ScrollToTop from "../../../router/ScrollToTop";
 
 const Dashboard = () => {
   return (
     <Container>
+      <ScrollToTop />
       <AppBar position="static" className="appBar">
         <Toolbar>
           <Typography variant="h6" style={{ flexGrow: 1 }}>
