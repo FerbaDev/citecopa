@@ -54,8 +54,17 @@
   display: flex;
   justify-content: center;
   gap: 1em;
-  padding: 0 10px;
-  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .home {
+    height: 95vh;
+    padding: 30px;
+  }
+
+
 }
 
 
