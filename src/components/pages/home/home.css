@@ -61,10 +61,8 @@
 @media only screen and (max-width: 600px) {
   .home {
     height: 95vh;
-    padding: 30px;
+    padding: 50px;
   }
-
-
 }
 
 
