@@ -1,6 +1,7 @@
 .home {
   position: relative;
   height: 100vh;
+  max-height: 100vh;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -53,7 +54,8 @@
   display: flex;
   justify-content: center;
   gap: 1em;
-  flex-wrap: wrap;
+  padding: 0 10px;
+  box-sizing: border-box;
 }
 
 
