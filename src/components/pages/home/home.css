@@ -62,7 +62,10 @@
   .home {
     height: 94vh;
     padding: 50px;
-
+  }
+  .buttons-container {
+    bottom: 30px;
+    width: 80%;
   }
 }
 
