@@ -58,6 +58,12 @@ const Contactos = () => {
             <p>
               <strong>Email:</strong> {user.email}
             </p>
+            <p>
+              <strong>Domicilio:</strong> {user.address}
+            </p>
+            <p>
+              <strong>Escuela:</strong> {user.school}
+            </p>
             <div className={styles.buttons}>
               <button
                 onClick={() => deleteUser(user.id)}

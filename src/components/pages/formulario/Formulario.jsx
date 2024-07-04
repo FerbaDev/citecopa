@@ -14,6 +14,8 @@ const Formulario = () => {
       age: "",
       phone: "",
       email: "",
+      address: "",
+      school: ""
     },
     validationSchema: Yup.object({
       firstName: Yup.string().required("Nombre es requerido"),
@@ -28,6 +30,8 @@ const Formulario = () => {
       email: Yup.string()
         .email("Email no es válido")
         .required("Email es requerido"),
+      address: Yup.string().required("Domicilio es requerido"),
+      school: Yup.string().required("Escuela es requerida"),
     }),
     onSubmit: async (values, { resetForm }) => {
       try {
@@ -39,11 +43,12 @@ const Formulario = () => {
       }
     },
   });
+
   return (
     <div className={styles.formContainer}>
       <ScrollToTop />
       <div className={styles.formHeader}>
-        <h2>Formá parte del <span style={{fontFamily: "var(--font-orbitron)", color: "yellow"}}>Club de Ciencias</span></h2>
+        <h2>Formá parte del <span style={{ fontFamily: "var(--font-orbitron)", color: "yellow" }}>Club de Ciencias</span></h2>
         <p>Dejá tus datos y te contactamos para entrar al club.</p>
       </div>
       <form onSubmit={formik.handleSubmit} className={styles.form}>
@@ -132,12 +137,46 @@ const Formulario = () => {
             <div className={styles.error}>{formik.errors.email}</div>
           ) : null}
         </div>
+        <div className={styles.field}>
+          <label htmlFor="address" className={styles.label}>
+            Domicilio
+          </label>
+          <input
+            id="address"
+            name="address"
+            type="text"
+            onChange={formik.handleChange}
+            onBlur={formik.handleBlur}
+            value={formik.values.address}
+            className={styles.input}
+          />
+          {formik.touched.address && formik.errors.address ? (
+            <div className={styles.error}>{formik.errors.address}</div>
+          ) : null}
+        </div>
+        <div className={styles.field}>
+          <label htmlFor="school" className={styles.label}>
+            Escuela
+          </label>
+          <input
+            id="school"
+            name="school"
+            type="text"
+            onChange={formik.handleChange}
+            onBlur={formik.handleBlur}
+            value={formik.values.school}
+            className={styles.input}
+          />
+          {formik.touched.school && formik.errors.school ? (
+            <div className={styles.error}>{formik.errors.school}</div>
+          ) : null}
+        </div>
         <button type="submit" className={styles.button}>
           Enviar
         </button>
       </form>
-      <div style={{marginTop: "20px"}}>
-      <Link to={-1} className={styles.button}>Volver</Link>
+      <div style={{ marginTop: "20px" }}>
+        <Link to={-1} className={styles.button}>Volver</Link>
       </div>
     </div>
   );
