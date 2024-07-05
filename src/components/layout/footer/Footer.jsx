@@ -32,7 +32,7 @@ export const Footer = () => {
             </Typography>
             <hr style={{ width: '60px', backgroundColor: '#7c4dff', height: '2px', margin: '10px 0' }} />
             <Typography variant="body1" sx={{ fontFamily: "var(--font-spartan)" }}>
-              Aquí puedes usar filas y columnas para organizar el contenido del pie de página. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Fundación para la Ciencia, Tecnología y Comunidad Patagónica.
             </Typography>
           </Grid>
           <Grid item xs={12} md={2}>
@@ -78,6 +78,10 @@ export const Footer = () => {
           <Typography variant="body2" align="center">
             © 2024 Copyright:
             <Link to="/" style={{ color: 'inherit', textDecoration: 'none' }}> Fundación Citecopa</Link>
+          </Typography>
+          <Typography variant="body2" align="center">
+            Sitio desarrollado por
+            <Link to="https://talbalabs.com.ar" style={{ color: 'inherit', textDecoration: 'none' }} target="_blank"> Talba Labs</Link>
           </Typography>
         </Container>
       </Box>
