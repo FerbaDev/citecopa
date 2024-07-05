@@ -1,117 +1,134 @@
 .container {
-    background-color: var(--bg-violeta);
-    color: #ffffff;
-    padding: 20px;
+  background-color: var(--bg-violeta);
+  color: #ffffff;
+  padding: 20px;
+  overflow: hidden; /* Asegúrate de que el contenedor principal maneje el desbordamiento */
 }
 
 .header {
-    text-align: center;
-    margin-bottom: 40px;
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 .header h1 {
-    font-size: 3em;
-    margin-bottom: 10px;
+  font-size: 3em;
+  margin-bottom: 10px;
 }
 
 .header p {
-    font-size: 1.5em;
-    color: #fafafa;
-    margin-bottom: 20px;
-    font-family: var(--font-spartan);
+  font-size: 1.5em;
+  color: #fafafa;
+  margin-bottom: 20px;
+  font-family: var(--font-spartan);
 }
 
 .ctaButton {
-    background-color: cornflowerblue;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    font-family: var(--font-spartan);
-    font-size: 1.2em;
-    font-weight: bold;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: background-color 0.3s;
+  background-color: cornflowerblue;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-family: var(--font-spartan);
+  font-size: 1.2em;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
 }
 
 .ctaButton:hover {
-    background-color: #3300ff;
+  background-color: #3300ff;
 }
 
 .section {
-    margin-bottom: 40px;
-    display: flex;
-    flex-direction: column;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
 }
 .section2 {
-    margin-bottom: 40px;
-    display: flex;
-    flex-direction: column;
-  }
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+}
 .section h2 {
-    font-family: var(--font-orbitron);
-    font-size: 2em;
-    color: #fff;
-    margin-bottom: 10px;
+  font-family: var(--font-orbitron);
+  font-size: 2em;
+  color: #fff;
+  margin-bottom: 10px;
 }
 .section2 h2 {
-    font-family: var(--font-orbitron);
-    font-size: 2em;
-    color: #fff;
-    margin-bottom: 10px;
+  font-family: var(--font-orbitron);
+  font-size: 2em;
+  color: #fff;
+  margin-bottom: 10px;
 }
-
 .section p {
-    font-family: var(--font-spartan);
-    color: #fff;
-    font-size: 1.5em;
-    line-height: 1.6;
-    margin-bottom: 20px;
+  font-family: var(--font-spartan);
+  color: #fff;
+  font-size: 1.5em;
+  line-height: 1.6;
+  margin-bottom: 20px;
 }
 .section2 p {
-    color: #fff;
-    font-size: 1.5em;
-    line-height: 1.6;
-    margin-bottom: 20px;
-    font-family: var(--font-spartan);
-  }
+  color: #fff;
+  font-size: 1.5em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  font-family: var(--font-spartan);
+}
 .image {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    border-radius: 16px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 16px;
 }
 
+.subSection {
+  margin-top: 20px;
+}
+.subSection h3 {
+  font-family: var(--font-orbitron);
+  font-size: 1.8em;
+  color: yellow;
+  margin-bottom: 10px;
+}
+.subSection p {
+  font-family: var(--font-spartan);
+  color: #fff;
+  font-size: 1.3em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    .container {
-        padding: 50px 200px;
-      }
-      .section {
-        flex-direction: row;
-        align-items: center;
-        gap: 3em;
-        width: 100%;
-      }
-      .section2 {
-        flex-direction: row-reverse;
-        align-items: center;
-        gap: 3em;
-      }
-      .sectionInfo {
-        height: 300px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-      }
-      .image {
-        max-width: 50%;
-        height: auto;
-      }
-      .btnCont {
-        display: grid;
-        place-items: center;
-      }
+  .container {
+    padding: 50px 200px;
+    overflow: hidden; /* Asegúrate de que el contenedor maneje el desbordamiento */
+  }
+  .section {
+    flex-direction: row;
+    align-items: center;
+    gap: 3em;
+    width: 100%;
+  }
+  .section2 {
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 3em;
+  }
+  .sectionInfo {
+    height: auto; /* Ajusta la altura automáticamente según el contenido */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .image {
+    max-width: 50%;
+    height: auto;
+  }
+  .btnCont {
+    display: grid;
+    place-items: center;
+  }
 }
