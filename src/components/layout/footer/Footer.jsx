@@ -1,5 +1,5 @@
 import { Box, Typography, Container, Grid, Link as MuiLink } from '@mui/material';
-import { Instagram, Facebook, Google } from '@mui/icons-material';
+import { Instagram, Google } from '@mui/icons-material';
 import ReactWhatsapp from 'react-whatsapp';
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import { Link } from 'react-router-dom';
@@ -14,13 +14,10 @@ export const Footer = () => {
               Encontranos en las redes sociales
             </Typography>
             <Box>
-              <MuiLink href="#" color="inherit" sx={{ mx: 1 }}>
-                <Facebook />
-              </MuiLink>
-              <MuiLink href="https://www.google.com/maps/place/Italia+401,+R8500API+Viedma,+R%C3%ADo+Negro/@-40.812704,-63.0127384,13.5z/data=!4m5!3m4!1s0x95f69804033feb7b:0x9c548ba25036f745!8m2!3d-40.8122159!4d-63.0078713?hl=es-419&entry=ttu" color="inherit" sx={{ mx: 1 }}>
+              <MuiLink href="https://maps.app.goo.gl/MjFAbbSnV7vX6u9E6" color="inherit" sx={{ mx: 1 }} target="_blank">
                 <Google />
               </MuiLink>
-              <MuiLink href="https://www.instagram.com/linkclubdecienciasviedma/" color="inherit" sx={{ mx: 1 }}>
+              <MuiLink href="https://www.instagram.com/linkclubdecienciasviedma/" color="inherit" sx={{ mx: 1 }} target="_blank">
                 <Instagram />
               </MuiLink>
             </Box>
