@@ -1,7 +1,8 @@
 /* src/components/ContactForm.module.css */
 .formContainer {
   padding: 20px;
-  background-color: #9ADFF8;
+  background-color: var(--bg-violeta);
+  color: #fafafa;
 }
 .formHeader {
   padding-block: 20px;
