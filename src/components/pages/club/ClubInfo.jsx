@@ -42,7 +42,7 @@ const ClubInfo = () => {
             de manera divertida e interactiva.
           </p>
         </div>
-        <img src="/img-club-de-ciencias1.webp" alt="Explora Ciencias" className={styles.image} />
+        <img src="" alt="Explora Ciencias" className={styles.image} />
       </section>
 
       <section className={styles.section2} id='creatilab'>
@@ -54,7 +54,7 @@ const ClubInfo = () => {
             emocionantes <strong>construcciones</strong> que te harán sentir como un verdadero científico.
           </p>
         </div>
-        <img src="/creatilab2.webp" alt="CreatiLab" className={styles.image} />
+        <img src="" alt="CreatiLab" className={styles.image} />
       </section>
 
       <section className={styles.section} id='tecnoarte'>
@@ -66,7 +66,7 @@ const ClubInfo = () => {
             investigaciones para <strong>descubrir nuevas propuestas</strong>.
           </p>
         </div>
-        <img src="/tecnoarte.webp" alt="Innova y Tecno Arte" className={styles.image} />
+        <img src="" alt="Innova y Tecno Arte" className={styles.image} />
       </section>
 
       <section className={styles.section2} id='red-de-clubes'>
@@ -77,7 +77,7 @@ const ClubInfo = () => {
             Nosotros te apoyamos para que puedas crear tu propio espacio de ciencia y tecnología donde quiera que estés.
           </p>
         </div>
-        <img src="/red-de-clubes2.webp" alt="Red de Clubes" className={styles.image} />
+        <img src="" alt="Red de Clubes" className={styles.image} />
       </section>
 
       <section className={styles.section} id='espacio-de-ideas'>
