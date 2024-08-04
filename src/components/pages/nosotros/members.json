@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Gabriel Entraigas",
+        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/citecopa-fcac8.appspot.com/o/imagenes%2Fgabriel-entraigas.jpeg?alt=media&token=98527fc8-7c1a-4866-aab8-ee353e2e7119",
+        "cargo": "Presidente"
+    },
+    {
+        "id": 2,
+        "name": "Juan Andres Balogh",
+        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/citecopa-fcac8.appspot.com/o/imagenes%2Fjuan-andres-balogh.jpeg?alt=media&token=5f7bf9ef-0207-457e-b3d9-150db95af27d",
+        "cargo": "Vicepresidente"
+    },
+    {
+        "id": 3,
+        "name": "Ely Hernandez",
+        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/citecopa-fcac8.appspot.com/o/imagenes%2Fely-hernandez.jpg?alt=media&token=b4755314-7d90-4295-9116-323849f3ce80",
+        "cargo": "Tesorera"
+    },
+    {
+        "id": 4,
+        "name": "Enzo García",
+        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/citecopa-fcac8.appspot.com/o/imagenes%2Fenzo-garcia.jpeg?alt=media&token=491cb634-0676-4bb2-b231-b000226b4c91",
+        "cargo": "Vocal"
+    },
+    {
+        "id": 5,
+        "name": "Angel Olivetti",
+        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/citecopa-fcac8.appspot.com/o/imagenes%2Fangel-olivetti.jpeg?alt=media&token=3b944235-88dd-4807-8ec4-ce01fec4fc17",
+        "cargo": "Vocal"
+    },
+    {
+        "id": 6,
+        "name": "Maria Eugenia Bordón",
+        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/citecopa-fcac8.appspot.com/o/imagenes%2Fmaria-eugenia-bordon.jpeg?alt=media&token=f5b8a7b0-2b24-42a1-9bd8-dd2e5fc8bf12",
+        "cargo": "Secretaria"
+    },
+    {
+        "id": 7,
+        "name": "Matias Brollo",
+        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/citecopa-fcac8.appspot.com/o/imagenes%2Fmatias-brollo.jpeg?alt=media&token=d65bf04e-fbf3-4abd-a249-a552fd54aa7b",
+        "cargo": "Liga Robótica"
+    }
+]

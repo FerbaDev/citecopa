@@ -1,25 +1,15 @@
 import { useEffect, useState } from 'react';
 import styles from './Nosotros.module.css';
 import ScrollToTop from '../../../router/ScrollToTop';
-
+import members from './members.json';
 
 
 export const Nosotros = () => {
     const [teamMembers, setTeamMembers] = useState([]);
 
     useEffect(() => {
-        // Fetch data from JSONPlaceholder
-        fetch('https://jsonplaceholder.typicode.com/users')
-            .then(response => response.json())
-            .then(data => {
-                // Limit the data to 5 members and include a random image for each user
-                const limitedMembers = data.slice(0, 5).map((member, index) => ({
-                    ...member,
-                    imageUrl: `https://i.pravatar.cc/150?img=${index + 1}`
-                }));
-                setTeamMembers(limitedMembers);
-            })
-            .catch(error => console.error('Error fetching data:', error));
+         // Utilizar todos los datos del archivo JSON local
+         setTeamMembers(members);
     }, []);
 
   return (
@@ -30,14 +20,16 @@ export const Nosotros = () => {
                 <p>Conoce más sobre nuestra fundación, nuestro equipo, nuestra misión y nuestros valores.</p>
             </header>
 
-            <section className={styles.section}>
+            <section className={styles.sectionjunta}>
                 <h2>Equipo Fundador y Junta Directiva</h2>
                 <div className={styles.team}>
                     {teamMembers.map(member => (
                         <div key={member.id} className={styles.teamMember}>
                             <img src={member.imageUrl} alt={member.name} className={styles.teamImage} />
-                            <h3>{member.name}</h3>
-                            <p>{member.email}</p>
+                            <div className={styles.memberdata}>
+                                <h3>{member.name}</h3>
+                                <p>{member.cargo}</p>
+                            </div>
                         </div>
                     ))}
                 </div>
