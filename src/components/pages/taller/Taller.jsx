@@ -16,12 +16,12 @@ const Taller = () => {
         </p>
         <div>
           <ReactWhatsapp
-              number="549-2920-35-4587"
-              message="Hola! Quisiera mas info sobre el Taller de Construcciones Digitales!"
-              element="div"
-              className="cursor-manito btn"
-            >
-              Quiero más info!
+            number="549-2920-35-4587"
+            message="Hola! Quisiera más info sobre el Taller de Construcciones Digitales!"
+            element="div"
+            className="cursor-manito btn"
+          >
+            ¡Quiero más info!
           </ReactWhatsapp>
         </div>
       </header>
@@ -30,14 +30,7 @@ const Taller = () => {
         <div className={styles.sectionInfo}>
           <h2 className={styles.neonTextPink}>Prototipado Asistido</h2>
           <p>
-            En el área de <strong>Prototipado Asistido</strong>, los participantes
-            explorarán la <strong>fabricación digital </strong>
-            utilizando <strong>impresoras 3D</strong>,{" "}
-            <strong>smart factory</strong> y <strong>scanners 3D</strong>.
-            Aprenderán sobre <strong>fabricación avanzada</strong>,{" "}
-            <strong>diseño disruptivo</strong>, el uso de{" "}
-            <strong>rutters CNC</strong>,<strong> laser cutting</strong> y{" "}
-            <strong>tornería</strong>.
+            En el área de <strong>Prototipado Asistido</strong>, los participantes aprenderán sobre <strong>Prototipado y Diseño 3D</strong> mediante talleres sobre diseño asistido por computadora (CAD) y modelado 3D. Aprenderán a diseñar y crear prototipos digitales de productos y dispositivos utilizando software especializado, y podrán utilizar <strong>impresoras 3D</strong> para fabricar prototipos físicos. Además, se explorarán conceptos de <strong>fabricación digital</strong> y tecnologías de la <strong>Industria 4.0</strong>, como la <strong>fabricación CNC</strong> y la <strong>realidad aumentada en la producción</strong>.
           </p>
         </div>
         <img
@@ -51,11 +44,7 @@ const Taller = () => {
         <div className={styles.sectionInfo}>
           <h2 className={styles.neonTextPink}>Robótica, Automatismos e IoT</h2>
           <p>
-            El área de <strong>Robótica, Automatismos e IoT</strong> se centra en
-            el <strong>Internet de las cosas</strong>,
-            <strong>aplicaciones de control</strong>,{" "}
-            <strong>protocolos y entornos</strong> y diversas{" "}
-            <strong>funcionalidades</strong>.
+            El área de <strong>Robótica, Automatismos e IoT</strong> se centra en talleres de <strong>Automatización y Robótica</strong> donde los participantes aprenderán a diseñar, construir y programar robots y sistemas automatizados utilizando kits de robótica y plataformas de desarrollo. Se abordarán temas como la visión artificial, el control de movimiento y la interacción humano-robot. También se realizarán talleres sobre <strong>Internet de las Cosas (IoT)</strong>, donde los participantes aprenderán a diseñar y desarrollar dispositivos conectados a internet que interactúen entre sí y con el entorno físico, utilizando sensores, actuadores, microcontroladores y plataformas de IoT.
           </p>
         </div>
         <img
@@ -69,12 +58,7 @@ const Taller = () => {
         <div className={styles.sectionInfo}>
           <h2 className={styles.neonTextPink}>Electrónica Práctica Aplicada</h2>
           <p>
-            En el área de <strong>Electrónica Práctica Aplicada</strong>, los
-            estudiantes aprenderán sobre <strong>diseño y desarrollo</strong>, el
-            uso de <strong>sensores y actuadores</strong>,{" "}
-            <strong>placas de control</strong>,{" "}
-            <strong>microcontroladores</strong>,<strong>software y apps</strong> y{" "}
-            <strong>sistemas embebidos</strong>.
+            En el área de <strong>Electrónica Práctica Aplicada</strong>, los estudiantes aprenderán sobre <strong>Talleres de Programación y Desarrollo de Software</strong>, donde podrán aprender a programar y desarrollar software utilizando diferentes lenguajes de programación y herramientas de desarrollo, así como la programación de microcontroladores. Además, se explorarán temas de <strong>Seguridad Informática y Ciberseguridad</strong>, enseñando a los participantes sobre las amenazas y vulnerabilidades en el mundo digital y cómo proteger sistemas y datos contra ataques cibernéticos. Se incluirán talleres sobre <strong>Realidad Virtual (VR) y Realidad Aumentada (AR)</strong>, donde los participantes aprenderán a desarrollar aplicaciones y experiencias inmersivas utilizando tecnologías de VR y AR.
           </p>
         </div>
         <img
@@ -88,14 +72,7 @@ const Taller = () => {
         <div className={styles.sectionInfo}>
           <h2 className={styles.neonTextPink}>Sustentabilidad en Acción</h2>
           <p>
-            El área de <strong>Sustentabilidad en Acción</strong> fomenta el uso
-            de <strong>energías renovables</strong>, la{" "}
-            <strong>reducción de residuos</strong> y{" "}
-            <strong>reciclados y restauraciones</strong>. Se promueven
-            <strong> iniciativas sostenibles</strong> en{" "}
-            <strong>agricultura sostenible</strong> y{" "}
-            <strong>tecnologías verdes </strong>
-            para crear <strong>productos ecológicos y biodinámicos</strong>.
+            El área de <strong>Sustentabilidad en Acción</strong> fomenta el uso de <strong>energías renovables</strong>, la <strong>reducción de residuos</strong> y <strong>reciclados y restauraciones</strong>. Se promueven <strong>iniciativas sostenibles</strong> en <strong>agricultura sostenible</strong> y <strong>tecnologías verdes</strong> para crear <strong>productos ecológicos y biodinámicos</strong>. También se explorarán tecnologías emergentes como <strong>blockchain y criptomonedas</strong>, donde los participantes aprenderán sobre los fundamentos de la tecnología blockchain, su aplicación en diferentes industrias y el funcionamiento de las criptomonedas como Bitcoin y Ethereum.
           </p>
         </div>
         <img

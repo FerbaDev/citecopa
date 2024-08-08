@@ -93,7 +93,7 @@
     gap: 3em;
   }
   .sectionInfo {
-    height: 300px;
+    /* height: 300px; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;

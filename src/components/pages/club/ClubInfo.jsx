@@ -36,10 +36,8 @@ const ClubInfo = () => {
         <div className={styles.sectionInfo}>
           <h2 className='neon-text-pink'>Explora Ciencias</h2>
           <p>
-            Podrás aprender sobre <strong>ciencias naturales, conservación de especies, 
-            biodiversidad digital, biotecnologías, astronomía y ciencias exactas (física, química, matemáticas)</strong>. 
-            Descubre los <strong>ecosistemas y acciones ambientales</strong> y explora las <strong>historias de las ciencias </strong> 
-            de manera divertida e interactiva.
+            Desarrollo de talleres prácticos donde los participantes puedan realizar experimentos científicos en temas como <strong>física, química, biología, robótica</strong>, etc. 
+            Estos talleres pueden ser impartidos por expertos en la materia o por miembros destacados del club.
           </p>
         </div>
         <img src="" alt="Explora Ciencias" className={styles.image} />
@@ -49,9 +47,8 @@ const ClubInfo = () => {
         <div className={styles.sectionInfo}>
           <h2 className='neon-text-pink'>CreatiLab</h2>
           <p>
-            En el <strong>CreatiLab</strong>, podrás experimentar con <strong>inteligencia artificial, realidad virtual y aumentada, 
-            gaming y experimentos de ciencia viva</strong>. Construye <strong>artilugios tecnológicos</strong> y participa en 
-            emocionantes <strong>construcciones</strong> que te harán sentir como un verdadero científico.
+            Fomento de proyectos de investigación dirigidos por los miembros del club, donde puedan explorar y profundizar en temas de su interés. 
+            Estos proyectos pueden abarcar desde estudios científicos básicos hasta investigaciones más avanzadas en colaboración con instituciones académicas.
           </p>
         </div>
         <img src="" alt="CreatiLab" className={styles.image} />
@@ -61,9 +58,8 @@ const ClubInfo = () => {
         <div className={styles.sectionInfo}>
           <h2 className='neon-text-pink'>Innova y Tecno Arte</h2>
           <p>
-            En <strong>Innova y Tecno Arte</strong>, podrás explorar el mundo de la <strong>música e iluminación</strong>, 
-            y el <strong>diseño de artículos de moda</strong>. Descubre el arte del <strong>upcycling</strong> y participa en 
-            investigaciones para <strong>descubrir nuevas propuestas</strong>.
+            Organización de charlas y conferencias con científicos destacados, investigadores y profesionales del campo, donde se puedan abordar temas de actualidad y 
+            compartir conocimientos especializados con los miembros del club y la comunidad en general.
           </p>
         </div>
         <img src="" alt="Innova y Tecno Arte" className={styles.image} />
@@ -73,8 +69,8 @@ const ClubInfo = () => {
         <div className={styles.sectionInfo}>
           <h2 className='neon-text-pink'>Red de Clubes</h2>
           <p>
-            Con la <strong>Red de Clubes</strong>, te ayudamos a <strong>armar tu club en la escuela o en tu barrio</strong>. 
-            Nosotros te apoyamos para que puedas crear tu propio espacio de ciencia y tecnología donde quiera que estés.
+            Participación en competencias científicas a nivel local, nacional e internacional, donde los miembros del club puedan poner a prueba sus habilidades y 
+            conocimientos en diferentes áreas científicas y tecnológicas.
           </p>
         </div>
         <img src="" alt="Red de Clubes" className={styles.image} />
@@ -86,23 +82,37 @@ const ClubInfo = () => {
           <div className={styles.subSection}>
             <h3 className='neon-text-yellow'>Proponé</h3>
             <p>
-              Aporta tus ideas y proyectos innovadores. Comparte tus propuestas y trabaja en conjunto con otros miembros del club para hacerlas realidad.
+              Organización de excursiones y visitas a laboratorios, centros de investigación, museos de ciencia y tecnología, y otras instituciones relacionadas, 
+              para que los miembros del club puedan conocer de cerca el trabajo científico y tecnológico en acción.
             </p>
           </div>
           <div className={styles.subSection}>
             <h3 className='neon-text-yellow'>Descubrí</h3>
             <p>
-              Explora nuevas áreas del conocimiento y descubre cómo puedes aplicar la ciencia y la tecnología para resolver problemas reales.
+              Estímulo a la producción de contenido científico y tecnológico, como artículos, blogs, vídeos y presentaciones, para compartir los resultados de 
+              investigaciones y experiencias del club con la comunidad en línea.
             </p>
           </div>
           <div className={styles.subSection}>
             <h3 className='neon-text-yellow'>Investigá</h3>
             <p>
-              Participa en proyectos de investigación y desarrolla tus habilidades científicas. Colabora con otros miembros para llevar a cabo estudios y experimentos.
+              Ofrecimiento de programas de mentoría y tutorías, donde los miembros más experimentados del club puedan guiar y apoyar a los nuevos integrantes en 
+              su desarrollo científico y tecnológico.
             </p>
           </div>
         </div>
         <img src="/espacio-de-ideas.webp" alt="Espacio de Ideas" className={styles.image} />
+      </section>
+
+      <section className={styles.section2} id='ferias-de-ciencias'>
+        <div className={styles.sectionInfo}>
+          <h2 className='neon-text-pink'>Ferias de Ciencias</h2>
+          <p>
+            Organización de ferias de ciencias anuales o semestrales, donde los miembros del club puedan exhibir y presentar sus proyectos e investigaciones ante un 
+            público más amplio y recibir retroalimentación de expertos en el campo.
+          </p>
+        </div>
+        <img src="" alt="Ferias de Ciencias" className={styles.image} />
       </section>
 
       <div className={styles.btnCont}>
