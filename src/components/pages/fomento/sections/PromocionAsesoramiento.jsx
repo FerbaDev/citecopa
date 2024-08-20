@@ -4,7 +4,7 @@ const PromocionAsesoramiento = () => {
     return (
         <section className={styles.section}>
             <h2>Promoción, Asesoramiento y Mentorías</h2>
-            <p>Promovemos el crecimiento de emprendedores y artesanos a través de asesoramiento y mentorías, brindando apoyo personalizado para sus proyectos.</p>
+            <p>Nuestro enfoque va más allá del simple acompañamiento. Promovemos activamente el desarrollo de cada emprendedor y artesano, ofreciendo asesoramiento personalizado y mentorías que abordan sus desafíos y oportunidades. Creemos en el potencial de cada proyecto y trabajamos mano a mano con ustedes para hacer realidad sus sueños empresariales.</p>
         </section>
     );
 };

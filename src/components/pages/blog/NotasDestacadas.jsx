@@ -10,8 +10,8 @@ export const NotasDestacadas = () => {
     const articles = [
         {
             id: 1,
-            title: 'Artículo Destacado 1',
-            image: 'https://via.placeholder.com/150', // URL de imagen de ejemplo
+            title: 'Río Negro le da una nueva vida a la basura electrónica',
+            image: 'https://firebasestorage.googleapis.com/v0/b/citecopa-fcac8.appspot.com/o/imagenes%2Flg.jpg?alt=media&token=a46a52dc-daeb-4584-877b-b636365ad011', // URL de imagen de ejemplo
             text: 'Este es el texto del artículo destacado 1... ver más...',
             fullText: 'Este es el texto completo del artículo destacado 1.'
         },
